@@ -18,7 +18,8 @@ from datetime import datetime
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from chat import get_vector_store, get_llm, build_prompt, ask
+from chat import get_vector_store, get_llm, ask, TOP_K
+from ingest import CHUNK_SIZE, CHUNK_OVERLAP
 
 
 def load_questions(path="eval/questions.json"):
@@ -142,7 +143,7 @@ def main():
     else:
         print("Initializing vector store...")
         vector_store = get_vector_store()
-        retriever = vector_store.as_retriever(search_kwargs={"k": 5})
+        retriever = vector_store.as_retriever(search_kwargs={"k": TOP_K})
 
         print(f"\n{'='*50}")
         print("Running RAG pipeline on all questions...")
@@ -151,7 +152,7 @@ def main():
 
         rag_output = {
             "timestamp": datetime.now().isoformat(),
-            "config": {"k": 5, "temperature": 0},
+            "config": {"k": TOP_K, "chunk_size": CHUNK_SIZE, "chunk_overlap": CHUNK_OVERLAP, "temperature": 0},
             "results": rag_results,
         }
         with open(rag_path, "w", encoding="utf-8") as f:
@@ -159,19 +160,26 @@ def main():
         print(f"\nRAG answers saved to {rag_path}")
 
     # --- Baseline run ---
-    print(f"\n{'='*50}")
-    print("Running baseline LLM (no retrieval) on all questions...")
-    print(f"{'='*50}\n")
-    baseline_results = run_baseline(questions, llm)
+    base_path = results_dir / "answers_baseline.json"
+    if base_path.exists():
+        # No retrieval involved, so only the LLM or the questions changing makes these stale
+        print(f"\nReusing existing baseline answers from {base_path}")
+        with open(base_path, "r", encoding="utf-8") as f:
+            baseline_results = json.load(f)["results"]
+    else:
+        print(f"\n{'='*50}")
+        print("Running baseline LLM (no retrieval) on all questions...")
+        print(f"{'='*50}\n")
+        baseline_results = run_baseline(questions, llm)
 
-    base_output = {
-        "timestamp": datetime.now().isoformat(),
-        "config": {"temperature": 0, "retrieval": False},
-        "results": baseline_results,
-    }
-    with open(results_dir / "answers_baseline.json", "w", encoding="utf-8") as f:
-        json.dump(base_output, f, indent=2, ensure_ascii=False)
-    print(f"\nBaseline answers saved to {results_dir / 'answers_baseline.json'}")
+        base_output = {
+            "timestamp": datetime.now().isoformat(),
+            "config": {"temperature": 0, "retrieval": False},
+            "results": baseline_results,
+        }
+        with open(base_path, "w", encoding="utf-8") as f:
+            json.dump(base_output, f, indent=2, ensure_ascii=False)
+        print(f"\nBaseline answers saved to {base_path}")
 
     # --- Labeling sheet ---
     generate_labeling_sheet(

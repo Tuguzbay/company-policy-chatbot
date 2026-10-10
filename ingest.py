@@ -9,6 +9,9 @@ from langchain_chroma import Chroma
 DOCS_FOLDER = Path("docs")
 DB_FOLDER = "db"
 COLLECTION_NAME = "company_knowledge"
+# Best setting from eval/ablations.py (Hit@5 0.78 vs 0.70 at 500/100)
+CHUNK_SIZE = 1000
+CHUNK_OVERLAP = 50
 
 
 def read_text_file(filepath: Path) -> str:
@@ -77,8 +80,8 @@ def split_documents(documents: list[Document]) -> list[Document]:
     We keep metadata attached to every chunk.
     """
     splitter = RecursiveCharacterTextSplitter(
-        chunk_size=500,
-        chunk_overlap=100,
+        chunk_size=CHUNK_SIZE,
+        chunk_overlap=CHUNK_OVERLAP,
     )
 
     chunks = splitter.split_documents(documents)
@@ -96,16 +99,14 @@ def build_vector_store(chunks: list[Document]) -> None:
     """
     embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
 
-    # Fresh rebuild for now.
-    # Later you can make this smarter.
     vector_store = Chroma(
         collection_name=COLLECTION_NAME,
         embedding_function=embeddings,
         persist_directory=DB_FOLDER,
     )
 
-    # Clear old data by deleting and recreating collection logic is more advanced.
-    # For version 1, just add documents. If you re-run often, you may want to wipe db/ manually.
+    # Fresh rebuild: without this, re-running ingest stores every chunk twice
+    vector_store.reset_collection()
     vector_store.add_documents(chunks)
 
     print(f"Stored {len(chunks)} chunks in the vector database.")

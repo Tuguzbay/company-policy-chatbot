@@ -17,7 +17,8 @@ from datetime import datetime
 # Allow imports from project root
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from chat import get_vector_store
+from chat import get_vector_store, TOP_K
+from ingest import CHUNK_SIZE, CHUNK_OVERLAP
 
 
 def load_questions(path="eval/questions.json"):
@@ -112,10 +113,10 @@ def main():
 
     print("Initializing vector store...")
     vector_store = get_vector_store()
-    retriever = vector_store.as_retriever(search_kwargs={"k": 5})
+    retriever = vector_store.as_retriever(search_kwargs={"k": TOP_K})
 
-    print(f"\nRunning retrieval eval (k=5)...\n")
-    results = evaluate_retrieval(questions, retriever, k=5)
+    print(f"\nRunning retrieval eval (k={TOP_K})...\n")
+    results = evaluate_retrieval(questions, retriever, k=TOP_K)
 
     agg = compute_aggregate(results)
     print_table(agg)
@@ -123,7 +124,7 @@ def main():
     # Save detailed results
     output = {
         "timestamp": datetime.now().isoformat(),
-        "config": {"k": 5, "chunk_size": 500, "chunk_overlap": 100},
+        "config": {"k": TOP_K, "chunk_size": CHUNK_SIZE, "chunk_overlap": CHUNK_OVERLAP},
         "aggregate": agg,
         "per_question": results,
     }

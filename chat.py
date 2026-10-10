@@ -6,6 +6,7 @@ import re
 
 DB_FOLDER = "db"
 COLLECTION_NAME = "company_knowledge"
+TOP_K = 5
 
 
 def get_vector_store():
@@ -91,7 +92,7 @@ def ask(question: str, retriever, llm, chat_history=None):
 
 def main():
     vector_store = get_vector_store()
-    retriever = vector_store.as_retriever(search_kwargs={"k": 2})
+    retriever = vector_store.as_retriever(search_kwargs={"k": TOP_K})
     llm = get_llm()
 
     chat_history = []
@@ -106,19 +107,7 @@ def main():
 
         chat_history.append({"role": "user", "content": question})
 
-        search_query = question
-
-        docs = retriever.invoke(search_query)
-
-        if not docs:
-            answer = "I don't know based on the provided documents."
-            print(f"\nBot: {answer}\n")
-            chat_history.append({"role": "assistant", "content": answer})
-            continue
-
-        prompt = build_prompt(question, docs, chat_history)
-        response = llm.invoke(prompt)
-        answer = response.content.strip()
+        answer, docs = ask(question, retriever, llm, chat_history)
 
         print(f"\nBot: {answer}\n")
 

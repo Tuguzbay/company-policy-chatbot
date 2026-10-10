@@ -109,13 +109,28 @@ The project includes a full evaluation suite (`eval/`) measuring retrieval quali
 
 | Metric | RAG | Baseline (no retrieval) |
 |--------|-----|------------------------|
-| Correctness | 0.81 (30/37) | 0.14 (5/37) |
-| Groundedness | 0.89 (33/37) | N/A |
+| Correctness | 0.84 (31/37) | 0.14 (5/37) |
+| Groundedness | 0.84 (31/37) | N/A |
 | Correct Abstention (unanswerable) | 1.00 (11/11) | 0.82 (9/11) |
-| Hit@5 (retrieval) | 0.70 | N/A |
-| MRR (retrieval) | 0.51 | N/A |
+| Hit@5 (retrieval) | 0.78 | N/A |
+| MRR (retrieval) | 0.57 | N/A |
 
-> 48 questions (37 answerable, 11 unanswerable), `deepseek-r1-distill-qwen-7b` at temperature 0, k=5, chunk size 500 / overlap 100. Answer labels (correctness, groundedness, abstention) were assigned by an LLM judge (Claude), not by hand.
+> 48 questions (37 answerable, 11 unanswerable), `deepseek-r1-distill-qwen-7b` at temperature 0, k=5, chunk size 1000 / overlap 50. Answer labels (correctness, groundedness, abstention) were assigned by an LLM judge (Claude), not by hand.
+
+### Tuning chunking with the eval
+
+The first version used chunk size 500 / overlap 100. The ablation sweep (`eval/ablations.py`) showed 1000 / 50 retrieves better, so `ingest.py` was switched and the full eval re-run:
+
+| Metric | 500 / 100 | 1000 / 50 |
+|--------|-----------|-----------|
+| Hit@1 | 0.38 | 0.41 |
+| Hit@3 | 0.65 | 0.78 |
+| Hit@5 | 0.70 | 0.78 |
+| MRR | 0.51 | 0.57 |
+| Correctness (RAG) | 0.81 (30/37) | 0.84 (31/37) |
+| Groundedness (RAG) | 0.89 (33/37) | 0.84 (31/37) |
+
+Retrieval improved clearly. Answer quality did not move much: correctness is up by one question and groundedness is down by two, which is within noise at 37 questions. With larger chunks the model more often had the right passage in context and still missed it or mixed in a neighbouring policy.
 
 ---
 

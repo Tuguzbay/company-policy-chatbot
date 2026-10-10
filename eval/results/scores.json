@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-10-10T12:44:53.772944",
+  "timestamp": "2026-10-10T13:03:18.648111",
   "scores": {
     "answerable_count": 37,
     "unanswerable_count": 11,
-    "correctness_rag": 0.8108108108108109,
+    "correctness_rag": 0.8378378378378378,
     "correctness_baseline": 0.13513513513513514,
-    "groundedness_rag": 0.8918918918918919,
+    "groundedness_rag": 0.8378378378378378,
     "abstention_rag": 1.0,
     "abstention_baseline": 0.8181818181818182,
     "labeled_answerable_rag": 37,
