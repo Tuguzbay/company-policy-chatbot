@@ -27,7 +27,7 @@ User Query
    ↓
 Embedding (MiniLM)
    ↓
-Vector Search (FAISS / Chroma)
+Vector Search (Chroma)
    ↓
 Relevant Document Chunks
    ↓
@@ -42,7 +42,7 @@ Final Answer
 
 - Python  
 - LangChain (RAG pipeline orchestration)  
-- FAISS / Chroma (vector database)  
+- Chroma (vector database)  
 - HuggingFace Embeddings (`all-MiniLM-L6-v2`)  
 - LM Studio (local LLM server)  
 
@@ -100,6 +100,22 @@ python chat.py
 You: What is the vacation policy?
 Bot: Employees are entitled to...
 ```
+
+---
+
+## Evaluation Results
+
+The project includes a full evaluation suite (`eval/`) measuring retrieval quality, answer correctness, and hallucination resistance. See [`eval/README.md`](eval/README.md) for details.
+
+| Metric | RAG | Baseline (no retrieval) |
+|--------|-----|------------------------|
+| Correctness | 0.81 (30/37) | 0.14 (5/37) |
+| Groundedness | 0.89 (33/37) | N/A |
+| Correct Abstention (unanswerable) | 1.00 (11/11) | 0.82 (9/11) |
+| Hit@5 (retrieval) | 0.70 | N/A |
+| MRR (retrieval) | 0.51 | N/A |
+
+> 48 questions (37 answerable, 11 unanswerable), `deepseek-r1-distill-qwen-7b` at temperature 0, k=5, chunk size 500 / overlap 100. Answer labels (correctness, groundedness, abstention) were assigned by an LLM judge (Claude), not by hand.
 
 ---
 
