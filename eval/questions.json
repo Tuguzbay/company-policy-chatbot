@@ -1,0 +1,434 @@
+[
+  {
+    "id": "a01",
+    "question": "What chunk size and overlap does the document splitter use?",
+    "answerable": false,
+    "reference_answer": "",
+    "evidence": "",
+    "source_file": "",
+    "category": "unanswerable"
+  },
+  {
+    "id": "a02",
+    "question": "What are the core values listed in the Code of Ethics?",
+    "answerable": true,
+    "reference_answer": "The core values are integrity, honesty, impartiality, openness, respect, and responsibility.",
+    "evidence": "core values of integrity, honesty, impartiality, openness, respect, and responsibility",
+    "source_file": "Template.pdf",
+    "category": "direct"
+  },
+  {
+    "id": "a03",
+    "question": "What is the mileage reimbursement rate for personal vehicle use on Foundation business?",
+    "answerable": true,
+    "reference_answer": "The reimbursement rate is $0.48 per kilometer.",
+    "evidence": "$0.48 per kilometer",
+    "source_file": "Template.pdf",
+    "category": "direct"
+  },
+  {
+    "id": "a04",
+    "question": "How many days of vacation does a full-time employee earn after completing one full year of service?",
+    "answerable": true,
+    "reference_answer": "Ten working days of annual vacation.",
+    "evidence": "ten working days of annual vacation",
+    "source_file": "Template.pdf",
+    "category": "direct"
+  },
+  {
+    "id": "a05",
+    "question": "What is the probationary period length for new employees?",
+    "answerable": true,
+    "reference_answer": "All employees have a six-month probationary period.",
+    "evidence": "six-month probationary period",
+    "source_file": "Template.pdf",
+    "category": "direct"
+  },
+  {
+    "id": "a06",
+    "question": "When is a three-month evaluation of new employees conducted?",
+    "answerable": true,
+    "reference_answer": "A three-month evaluation of all new employees will be conducted, followed by a probationary review at the end of the sixth month.",
+    "evidence": "A three-month evaluation of all new employees will be conducted",
+    "source_file": "Template.pdf",
+    "category": "direct"
+  },
+  {
+    "id": "a07",
+    "question": "What is the maximum time an employee may claim per day for out-of-town trips or conferences?",
+    "answerable": true,
+    "reference_answer": "The maximum time that an employee may claim is 12 hours per day.",
+    "evidence": "maximum time that an employee may claim is 12 hours per day",
+    "source_file": "Template.pdf",
+    "category": "direct"
+  },
+  {
+    "id": "a08",
+    "question": "How is overtime calculated according to the policy?",
+    "answerable": true,
+    "reference_answer": "Overtime is anything over 8 hours in a day and excess of 44 hours in a week. Hours are banked at 1.5 times the actual hours worked.",
+    "evidence": "banked at 1.5 times of the employee’s actual hours worked",
+    "source_file": "Template.pdf",
+    "category": "direct"
+  },
+  {
+    "id": "a09",
+    "question": "What happens if accumulated overtime is not taken within six months?",
+    "answerable": true,
+    "reference_answer": "The employer will pay the overtime hours at the prescribed rate of 1.5 times the employee's regular wage.",
+    "evidence": "employer will pay the overtime hours at the prescribed rate of 1.5 times the employee’s regular wage",
+    "source_file": "Template.pdf",
+    "category": "direct"
+  },
+  {
+    "id": "a10",
+    "question": "What is the Foundation's non-owned automobile insurance limit?",
+    "answerable": true,
+    "reference_answer": "The Foundation's limit for non-owned automobiles is $2 million.",
+    "evidence": "limit for non-owned automobiles is $2 million",
+    "source_file": "Template.pdf",
+    "category": "direct"
+  },
+  {
+    "id": "a11",
+    "question": "How many sick days does a full-time employee accrue per calendar year?",
+    "answerable": true,
+    "reference_answer": "A full-time employee accrues sick leave at the rate of ten days each calendar year.",
+    "evidence": "ten days each calendar year",
+    "source_file": "Template.pdf",
+    "category": "direct"
+  },
+  {
+    "id": "a12",
+    "question": "Can sick leave be carried over into the next calendar year?",
+    "answerable": true,
+    "reference_answer": "No, sick leave may not be carried over into a subsequent calendar year and it cannot be cashed out.",
+    "evidence": "Sick leave may not be carried over into a subsequent calendar year",
+    "source_file": "Template.pdf",
+    "category": "direct"
+  },
+  {
+    "id": "a13",
+    "question": "After how many consecutive sick days is a medical certificate required?",
+    "answerable": true,
+    "reference_answer": "After more than three consecutive scheduled work days.",
+    "evidence": "more than three (3) consecutive scheduled work days",
+    "source_file": "Template.pdf",
+    "category": "direct"
+  },
+  {
+    "id": "a14",
+    "question": "What RRSP contribution does the Foundation provide to employees?",
+    "answerable": true,
+    "reference_answer": "A 4% contribution per pay period towards a self-directed RRSP, upon completion of the probationary period.",
+    "evidence": "4% contribution per pay period towards a self-directed RRSP",
+    "source_file": "Template.pdf",
+    "category": "direct"
+  },
+  {
+    "id": "a15",
+    "question": "How much does the Foundation provide part-time employees for parking or bus pass?",
+    "answerable": true,
+    "reference_answer": "Part-time employees are entitled to receive $40 per month towards parking or bus pass.",
+    "evidence": "$40 per month towards parking or bus pass",
+    "source_file": "Template.pdf",
+    "category": "direct"
+  },
+  {
+    "id": "a16",
+    "question": "Who is the official spokesperson for the Foundation on governance and policy issues?",
+    "answerable": true,
+    "reference_answer": "The Chair of the Board of the Foundation.",
+    "evidence": "Chair of the Board of the Foundation is the official spokesperson on governance and policy issues",
+    "source_file": "Template.pdf",
+    "category": "direct"
+  },
+  {
+    "id": "a17",
+    "question": "What steps are in the progressive discipline process?",
+    "answerable": true,
+    "reference_answer": "Verbal warning (with written documentation), written warning, 2nd written warning or suspension, and termination.",
+    "evidence": "Verbal warning (with written documentation)",
+    "source_file": "Template.pdf",
+    "category": "direct"
+  },
+  {
+    "id": "a18",
+    "question": "Within how many days must an employee report a harassment incident to their supervisor?",
+    "answerable": true,
+    "reference_answer": "Within seven days of the incident.",
+    "evidence": "within seven (7) days of the incident",
+    "source_file": "Template.pdf",
+    "category": "direct"
+  },
+  {
+    "id": "a19",
+    "question": "What does the Foundation's dress code policy say about business meetings?",
+    "answerable": true,
+    "reference_answer": "Employees asked to attend business meetings with clients should dress in appropriate business attire.",
+    "evidence": "dress in appropriate business attire",
+    "source_file": "Template.pdf",
+    "category": "direct"
+  },
+  {
+    "id": "a20",
+    "question": "What are the three basic rights for employees under the health and safety model?",
+    "answerable": true,
+    "reference_answer": "The right to know about workplace safety hazards, the right to refuse unsafe work, and the right to participate in the occupational health and safety process.",
+    "evidence": "right to know about workplace safety hazards",
+    "source_file": "Template.pdf",
+    "category": "direct"
+  },
+  {
+    "id": "a21",
+    "question": "Does the Foundation cover the cost of alcoholic beverages during travel?",
+    "answerable": true,
+    "reference_answer": "No, the Foundation will not cover the cost of alcoholic beverages.",
+    "evidence": "Foundation will not cover the cost of alcoholic beverages",
+    "source_file": "Template.pdf",
+    "category": "direct"
+  },
+  {
+    "id": "a22",
+    "question": "What is the deadline for submitting expense receipts?",
+    "answerable": true,
+    "reference_answer": "Within 30 days of the incurred expense.",
+    "evidence": "within 30 days of the incurred expense",
+    "source_file": "Template.pdf",
+    "category": "direct"
+  },
+  {
+    "id": "a23",
+    "question": "How many hours of counseling does the Employee Assistance Program provide?",
+    "answerable": true,
+    "reference_answer": "Up to 12 hours of face-to-face counseling per year, per employee.",
+    "evidence": "12 hours of face to face counseling per year, per employee",
+    "source_file": "Template.pdf",
+    "category": "direct"
+  },
+  {
+    "id": "a24",
+    "question": "How many copies of the confidentiality agreement are made?",
+    "answerable": true,
+    "reference_answer": "Two copies: one for the person signing and one filed with a scanned copy saved on the server.",
+    "evidence": "Two copies of the confidentiality agreement will be made",
+    "source_file": "Template.pdf",
+    "category": "direct"
+  },
+  {
+    "id": "a25",
+    "question": "What criteria are used for determining pay increases?",
+    "answerable": true,
+    "reference_answer": "Job and technical knowledge, problem solving and judgment, quality of work, quantity of work, teamwork and cooperation, communication, and self-management.",
+    "evidence": "Job and technical knowledge",
+    "source_file": "Template.pdf",
+    "category": "direct"
+  },
+  {
+    "id": "a26",
+    "question": "Within how many days must a drug conviction be reported to the ED/CEO?",
+    "answerable": true,
+    "reference_answer": "Within five days of any such conviction.",
+    "evidence": "five days of any such conviction",
+    "source_file": "Template.pdf",
+    "category": "direct"
+  },
+  {
+    "id": "a27",
+    "question": "What vacation pay percentage do full-time employees receive in their fifth year?",
+    "answerable": true,
+    "reference_answer": "6% starting in the fifth year, up from 4% for the first four years.",
+    "evidence": "6% to full-time employees in their fifth year",
+    "source_file": "Template.pdf",
+    "category": "direct"
+  },
+  {
+    "id": "a28",
+    "question": "How many vacation weeks does a full-time employee earn after completing ten years of service?",
+    "answerable": true,
+    "reference_answer": "Four weeks (twenty working days).",
+    "evidence": "twenty working days",
+    "source_file": "Template.pdf",
+    "category": "direct"
+  },
+  {
+    "id": "a29",
+    "question": "What does ED/CEO stand for in the policy document?",
+    "answerable": true,
+    "reference_answer": "Executive Director / Chief Executive Officer.",
+    "evidence": "Executive Director (ED) and for others the title is Chief Executive Officer (CEO)",
+    "source_file": "Template.pdf",
+    "category": "direct"
+  },
+  {
+    "id": "a30",
+    "question": "What information should a job advertisement include according to the recruitment policy?",
+    "answerable": true,
+    "reference_answer": "Job Title, essential requirements for education and experience, knowledge and skills required, salary range, starting/ending date, hours of work, closing date, and respondent.",
+    "evidence": "Job Title",
+    "source_file": "Template.pdf",
+    "category": "direct"
+  },
+  {
+    "id": "b01",
+    "question": "If a new employee's probationary review is unsatisfactory, can the probationary period be extended, and for how long?",
+    "answerable": true,
+    "reference_answer": "Yes, the probationary period may be extended for up to six months if suitability cannot be determined.",
+    "evidence": "probationary period may be extended for up to six months",
+    "source_file": "Template.pdf",
+    "category": "paraphrased"
+  },
+  {
+    "id": "b02",
+    "question": "What are the consequences if an employee falsifies Foundation records?",
+    "answerable": true,
+    "reference_answer": "The employee may be subject to disciplinary action up to and including dismissal.",
+    "evidence": "subject to disciplinary action up to and including dismissal",
+    "source_file": "Template.pdf",
+    "category": "paraphrased"
+  },
+  {
+    "id": "b03",
+    "question": "How does the policy handle both donor confidentiality and employee use of Foundation information for personal gain?",
+    "answerable": true,
+    "reference_answer": "Donor anonymity and confidentiality requests are strictly respected; donor lists are not shared. Separately, any information received through the Foundation will not be used for personal gain.",
+    "evidence": "Donor requests for confidentiality and anonymity will be strictly respected",
+    "source_file": "Template.pdf",
+    "category": "paraphrased"
+  },
+  {
+    "id": "b04",
+    "question": "What protections exist for an employee who reports a violation of the Code of Ethics?",
+    "answerable": true,
+    "reference_answer": "The Foundation's policy prohibits any retribution against employees, volunteers or contractors who report violations.",
+    "evidence": "prohibits any retribution against employees, volunteers or contractors who come forward",
+    "source_file": "Template.pdf",
+    "category": "paraphrased"
+  },
+  {
+    "id": "b05",
+    "question": "What conditions must be met for an employee to use Foundation equipment for personal purposes?",
+    "answerable": true,
+    "reference_answer": "Advance approval from ED/CEO, the item must be portable, non-consumable, and the cost to the Foundation must be negligible.",
+    "evidence": "Advance approval by ED/CEO is obtained",
+    "source_file": "Template.pdf",
+    "category": "paraphrased"
+  },
+  {
+    "id": "b06",
+    "question": "How does the Foundation handle situations where a supervisor is the one causing harassment?",
+    "answerable": true,
+    "reference_answer": "If the supervisor is the cause, the situation should be discussed with the ED/CEO. If the ED/CEO is the cause, it should be discussed with the Board Chair.",
+    "evidence": "If the supervisor is the cause of the problem the situation should be discussed with the ED/CEO",
+    "source_file": "Template.pdf",
+    "category": "paraphrased"
+  },
+  {
+    "id": "b07",
+    "question": "What happens to a progressive discipline record after 24 months with no recurrence?",
+    "answerable": true,
+    "reference_answer": "A second written warning or suspension may be purged from the employee's file if there is no recurrence over the next 24 months.",
+    "evidence": "purged from the employee’s file if there is no recurrence over the next 24 months",
+    "source_file": "Template.pdf",
+    "category": "paraphrased"
+  },
+  {
+    "id": "b08",
+    "question": "What are the rules about outside employment and its relationship to Foundation duties?",
+    "answerable": true,
+    "reference_answer": "Outside employment must be kept separate from Foundation responsibilities, must not use Foundation resources, must not create a conflict of interest, should not embarrass the Foundation, and soliciting Foundation donors for outside work is prohibited.",
+    "evidence": "All outside employment and associated activities must be kept separate",
+    "source_file": "Template.pdf",
+    "category": "paraphrased"
+  },
+  {
+    "id": "u01",
+    "question": "What is the Foundation's remote work or work-from-home policy?",
+    "answerable": false,
+    "reference_answer": "",
+    "evidence": "",
+    "source_file": "",
+    "category": "unanswerable"
+  },
+  {
+    "id": "u02",
+    "question": "Does the Foundation offer stock options or equity compensation?",
+    "answerable": false,
+    "reference_answer": "",
+    "evidence": "",
+    "source_file": "",
+    "category": "unanswerable"
+  },
+  {
+    "id": "u03",
+    "question": "What is the Foundation's policy on sabbatical leave?",
+    "answerable": false,
+    "reference_answer": "",
+    "evidence": "",
+    "source_file": "",
+    "category": "unanswerable"
+  },
+  {
+    "id": "u04",
+    "question": "How many employees currently work at the Foundation?",
+    "answerable": false,
+    "reference_answer": "",
+    "evidence": "",
+    "source_file": "",
+    "category": "unanswerable"
+  },
+  {
+    "id": "u05",
+    "question": "What is the Foundation's annual revenue or budget?",
+    "answerable": false,
+    "reference_answer": "",
+    "evidence": "",
+    "source_file": "",
+    "category": "unanswerable"
+  },
+  {
+    "id": "u06",
+    "question": "Does the Foundation provide pet-friendly workplace accommodations?",
+    "answerable": false,
+    "reference_answer": "",
+    "evidence": "",
+    "source_file": "",
+    "category": "unanswerable"
+  },
+  {
+    "id": "u07",
+    "question": "What is the Foundation's policy on employee bonuses?",
+    "answerable": false,
+    "reference_answer": "",
+    "evidence": "",
+    "source_file": "",
+    "category": "unanswerable"
+  },
+  {
+    "id": "u08",
+    "question": "Does the Foundation have a mentorship or coaching program?",
+    "answerable": false,
+    "reference_answer": "",
+    "evidence": "",
+    "source_file": "",
+    "category": "unanswerable"
+  },
+  {
+    "id": "u09",
+    "question": "What software or project management tools does the Foundation use?",
+    "answerable": false,
+    "reference_answer": "",
+    "evidence": "",
+    "source_file": "",
+    "category": "unanswerable"
+  },
+  {
+    "id": "u10",
+    "question": "What is the Foundation's policy on employee social media use outside of work?",
+    "answerable": false,
+    "reference_answer": "",
+    "evidence": "",
+    "source_file": "",
+    "category": "unanswerable"
+  }
+]
