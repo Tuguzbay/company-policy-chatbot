@@ -4,6 +4,8 @@ A lightweight chatbot that answers company policy questions using a **Retrieval-
 
 The system retrieves relevant information from internal documents and generates grounded responses, avoiding hallucinations and keeping everything **fully local (no external APIs)**.
 
+![Web UI answering a policy question and declining one the documents don't cover](assets/screenshot.png)
+
 ---
 
 ## Overview
@@ -45,6 +47,7 @@ Final Answer
 - Chroma (vector database)  
 - HuggingFace Embeddings (`all-MiniLM-L6-v2`)  
 - LM Studio (local LLM server)  
+- Streamlit (web UI)  
 
 ### Model
 
@@ -58,7 +61,7 @@ Final Answer
 - Fully local execution (no API keys, no external calls)  
 - RAG-based responses grounded in company documents  
 - Modular pipeline (easy to swap embeddings, models, or vector stores)  
-- Simple CLI interface for querying  
+- Web chat UI that shows the retrieved passages behind each answer, plus a simple CLI  
 
 ---
 
@@ -86,7 +89,23 @@ pip install -r requirements.txt
 http://localhost:1234
 ```
 
+### Build the vector store
+
+Put your policy documents (`.pdf` or `.txt`) in `docs/`, then:
+
+```bash
+python ingest.py
+```
+
 ### Run chatbot
+
+Web UI:
+
+```bash
+streamlit run app.py
+```
+
+Or in the terminal:
 
 ```bash
 python chat.py
