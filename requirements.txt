@@ -5,3 +5,4 @@ langchain-huggingface
 langchain-chroma
 pypdf
 sentence-transformers
+streamlit
