@@ -1,6 +1,7 @@
 from langchain_openai import ChatOpenAI
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_chroma import Chroma
+import re
 
 
 DB_FOLDER = "db"
@@ -23,8 +24,8 @@ def get_vector_store():
 def get_llm():
     # needs to be replaced if another LLM is used
     return ChatOpenAI(
-        model="llava-v1.5-7b-llamafile", 
-        base_url="http://localhost:1234/v1",
+        model="deepseek-r1-distill-qwen-7b", 
+        base_url="http://127.0.0.1:1234/v1",
         api_key="not-needed",
         temperature=0.1,
     )
@@ -73,6 +74,19 @@ User Question:
 {question}
 """
     return prompt.strip()
+
+
+def ask(question: str, retriever, llm, chat_history=None):
+    """Retrieve context and answer one question. Returns (answer, docs)."""
+    docs = retriever.invoke(question)
+    if not docs:
+        return "I don't know based on the provided documents.", docs
+
+    prompt = build_prompt(question, docs, chat_history or [])
+    answer = llm.invoke(prompt).content
+    # reasoning models (e.g. deepseek-r1) prefix answers with <think>...</think>
+    answer = re.sub(r"<think>.*?</think>", "", answer, flags=re.DOTALL).strip()
+    return answer, docs
 
 
 def main():
