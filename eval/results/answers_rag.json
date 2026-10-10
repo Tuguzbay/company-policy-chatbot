@@ -1,0 +1,1881 @@
+{
+  "timestamp": "2026-10-08T12:53:25.936742",
+  "config": {
+    "k": 5,
+    "temperature": 0
+  },
+  "results": [
+    {
+      "id": "a01",
+      "question": "What chunk size and overlap does the document splitter use?",
+      "answerable": false,
+      "reference_answer": "",
+      "rag_answer": "I don't know based on the provided documents.",
+      "retrieved_chunks": [
+        {
+          "chunk_id": 291,
+          "page": 46,
+          "document_name": "Template.pdf",
+          "content": "http://nwthumanrights.ca/wp-content/uploads/2020/05/fn_handbook.pdf"
+        },
+        {
+          "chunk_id": 218,
+          "page": 37,
+          "document_name": "Template.pdf",
+          "content": "SECTION 7\nProblem Resolution\nProgressive Discipline"
+        },
+        {
+          "chunk_id": 52,
+          "page": 11,
+          "document_name": "Template.pdf",
+          "content": "The Foundation is open Monday through Friday, exceptwhen observing statutory holidays. A normal workdayisconsidered to be a maximum of _________ hours perday; these hours are exclusive of a ________-minutelunchand __________ ﬁfteen-minute breaks. The standardworkweek is comprised of a maximum of ___________hours per week. (adjust to align with your Foundation’scurrent practice)"
+        },
+        {
+          "chunk_id": 282,
+          "page": 44,
+          "document_name": "Template.pdf",
+          "content": "https://www.wcb.mb.ca/workers-compensation-coverage\nPolicies and Procedures Template - Page44"
+        },
+        {
+          "chunk_id": 267,
+          "page": 42,
+          "document_name": "Template.pdf",
+          "content": "https://www.wcb.ab.ca/\nPolicies and Procedures Template - Page42"
+        }
+      ]
+    },
+    {
+      "id": "a02",
+      "question": "What are the core values listed in the Code of Ethics?",
+      "answerable": true,
+      "reference_answer": "The core values are integrity, honesty, impartiality, openness, respect, and responsibility.",
+      "rag_answer": "The code of ethics mentions Integrity as one of its core values. However, based on the provided context, no other specific core values are explicitly listed.\n\nSources: Template.pdf, page 7",
+      "retrieved_chunks": [
+        {
+          "chunk_id": 20,
+          "page": 6,
+          "document_name": "Template.pdf",
+          "content": "A code of ethics is important for organizations toestablish and ensure that everyone in theorganization is clear on the mission, values and guidingprinciples. The code provides employees,volunteers and contractors with a framework of whichrules exist, from a regulatory andlaw-enforcement standpoint and how to act in the greyareas of values-based ethics that aren’t alwaysclear. The policy below provides a framework fromwhich with your foundation can base your policy.Amend to align with your"
+        },
+        {
+          "chunk_id": 25,
+          "page": 7,
+          "document_name": "Template.pdf",
+          "content": "CODE OF ETHICS:\nThe Board of Directors promotes the highest standards of ethical behaviour. The Code of Ethics which relatesspeciﬁcally to Foundation employees includes:\n1. Integrity: Foundation members shall act with competence, honesty, integrity, respect and fairnesswhile carrying out their obligations for the Foundation."
+        },
+        {
+          "chunk_id": 19,
+          "page": 6,
+          "document_name": "Template.pdf",
+          "content": "https://theonn.ca/wp-content/uploads/2019/10/Decent-Work-Checklist-May-2019.pdf\nCode of Ethics"
+        },
+        {
+          "chunk_id": 22,
+          "page": 6,
+          "document_name": "Template.pdf",
+          "content": "PREAMBLE:\nAs a matter of fundamental principle, the Foundationrequires the highest ethical standards because publictrust inour performance is the bedrock of our legitimacy. Donors, volunteers and grant recipients trust theFoundation tocarry out its mission, to be good stewards of endowmentfunds, and to uphold rigorous standards of conduct."
+        },
+        {
+          "chunk_id": 43,
+          "page": 9,
+          "document_name": "Template.pdf",
+          "content": "Policy and Procedure Statement\nA Foundation must strive, as far as possible, to conductits aﬀairs in an honest, forthright, and impartial manner. It isnot enough that those making decisions believe thatthey are operating from the highest motives, andthat anyparticular action is innocent. So far as possible, actions and relationships must avoid any appearanceof improprietythat may raise questions in the minds of the public."
+        }
+      ]
+    },
+    {
+      "id": "a03",
+      "question": "What is the mileage reimbursement rate for personal vehicle use on Foundation business?",
+      "answerable": true,
+      "reference_answer": "The reimbursement rate is $0.48 per kilometer.",
+      "rag_answer": "The mileage reimbursement rate for personal vehicles used on Foundation business is **$0.48 per kilometer**. This policy is clearly stated in the provided context.\n\nSources: Template.pdf, page 13",
+      "retrieved_chunks": [
+        {
+          "chunk_id": 64,
+          "page": 13,
+          "document_name": "Template.pdf",
+          "content": "The Foundation will not coverthe cost of alcoholic beverages. Remuneration foruse of personal vehicles for business related activitiesshall be atthe rate of $0.48 per kilometer(insert your Foundation’srate – some Foundation’s use the federal government’sstandard mileage rate). Employees shall record anodometer log of all kilometers incurred on their personal vehicleduring the course of business. Mileage claims startfrom the employee’s normal place of business."
+        },
+        {
+          "chunk_id": 104,
+          "page": 19,
+          "document_name": "Template.pdf",
+          "content": "Policy and Procedure Statement\nWhen an employee or volunteer is using a personal vehicle while on Foundation business, their personal autoinsurance is the primary insurer. The Foundation’slimit for non-owned automobiles is $2 million. Thisis paid inexcess of the underlying automobile insurance forthe owner of said vehicle."
+        },
+        {
+          "chunk_id": 105,
+          "page": 19,
+          "document_name": "Template.pdf",
+          "content": "For example, if the employee has an underlying liabilitylimit of $1 million (as is typical) and uses a personal vehiclefor Foundation purposes and a claim is substantiatedin the amount of $2.5 million, the owner’s automobilepolicywould pick up the ﬁrst $1 million and the Foundation’sinsurance would pick up the additional $1.5 million.\nContact with media"
+        },
+        {
+          "chunk_id": 116,
+          "page": 21,
+          "document_name": "Template.pdf",
+          "content": "Parking: Upon successful completion of the probationaryperiod, full-time employees are entitled to havetheirparking paid for by the Foundation. Part-time employeesare entitled to receive $40 per month towards parkingorbus pass (upon submission of receipts).\nVacation"
+        },
+        {
+          "chunk_id": 63,
+          "page": 13,
+          "document_name": "Template.pdf",
+          "content": "Employees will be reimbursed for expenses incurredin the fulﬁllment of Foundation responsibilities, uponsubmission of appropriate receipts to the ED/CEO forapproval within 30 days of the incurred expense. Whenemployees travel out of town to attend overnight Foundationrelated activities, such expenses include but arenotlimited to mileage and/or transportation costs, mealsand overnight accommodation. The Foundation will not coverthe cost of alcoholic beverages. Remuneration foruse of personal"
+        }
+      ]
+    },
+    {
+      "id": "a04",
+      "question": "How many days of vacation does a full-time employee earn after completing one full year of service?",
+      "answerable": true,
+      "reference_answer": "Ten working days of annual vacation.",
+      "rag_answer": "A full-time employee will earn **ten working days** of annual vacation after completing one full year of service.\n\nSources:\n- Template.pdf, page: 21\n- Template.pdf, page: 22",
+      "retrieved_chunks": [
+        {
+          "chunk_id": 125,
+          "page": 22,
+          "document_name": "Template.pdf",
+          "content": "Vacation Schedule\n● After completing one full year of service 2 weeks\n● 5 – 10 years continuous service 3 weeks (after completionof the 5th year)\n● more than 10 years of service 4 weeks (after completionof the 10th year)\nPart-time Employees –Part-time employees will accumulateone day per month in lieu of payment of 4% vacationpay. The day is equivalent to the normal number ofhours regularly worked by the employee."
+        },
+        {
+          "chunk_id": 124,
+          "page": 22,
+          "document_name": "Template.pdf",
+          "content": "● After completing one full year of service ten workingdays\n● Five to ten years continuous service ﬁfteen workingdays\n● More than ten years of service twenty working days\nPolicy and Procedure Statement (earning vacation days)\nFull-time Employees –The Foundation pays vacationtime to full-time employees. Vacation should be takenin fullduring the employment year. Cash payments will notbe made in lieu of vacation except upon terminationofemployment.\nVacation Schedule"
+        },
+        {
+          "chunk_id": 120,
+          "page": 21,
+          "document_name": "Template.pdf",
+          "content": "After being employed for twelve months, an employeewill receive an annual vacation. After completingtwelvemonths of employment, an employee will have earnedten working days of annual vacation.. This meansthatstarting in the second year, an employee must takethe vacation earned in the year before.\nEmployees shall be required to submit a completed“Leave Form” for vacation time.\nNo vacation pay/time will be given in advance."
+        },
+        {
+          "chunk_id": 66,
+          "page": 13,
+          "document_name": "Template.pdf",
+          "content": "Part time employees receive General Holiday Pay onlyif it is a scheduled workday and would be paid fortheaverage daily wage."
+        },
+        {
+          "chunk_id": 126,
+          "page": 22,
+          "document_name": "Template.pdf",
+          "content": "It is understood all part-time employees are requiredto take a minimum two (2) weeks of vacation time, either paidor unpaid, during the vacation period in accordancewith the Employment Standards Act(ensure that thisclausealigns with your provincial legislation).\nIf the accumulated vacation credit is not used bythe employee’s anniversary date, then it will be paidout to theemployee.\nPolicies and Procedures Template - Page22"
+        }
+      ]
+    },
+    {
+      "id": "a05",
+      "question": "What is the probationary period length for new employees?",
+      "answerable": true,
+      "reference_answer": "All employees have a six-month probationary period.",
+      "rag_answer": "The probationary period for new employees is **six months**. This duration allows the company to evaluate employee suitability effectively.\n\nSources: Template.pdf, page 34",
+      "retrieved_chunks": [
+        {
+          "chunk_id": 206,
+          "page": 34,
+          "document_name": "Template.pdf",
+          "content": "4. If it is not possible to determine if the employeeis suitable for ongoing employment, the probationaryperiod may be extended for up to six months. The employeeshall be notiﬁed in writing that theprobationary period has been extended for a speciﬁctime period.\nPolicies and Procedures Template - Page34"
+        },
+        {
+          "chunk_id": 203,
+          "page": 34,
+          "document_name": "Template.pdf",
+          "content": "Policy and Procedure Statement\nAll employees have a six-month probationary period. A three-month evaluation of all new employees will beconducted followed by a probationary review that will be conducted at the end of the sixth month of employment.\nProcedure:\n1. The employee’s immediate supervisor will completethe probationary review and shall inform theemployee in writing, not less than two weeks priorto the end of the probationary period, the date ofthe review."
+        },
+        {
+          "chunk_id": 202,
+          "page": 34,
+          "document_name": "Template.pdf",
+          "content": "attendance or timekeeping or just doesn’tﬁt in terms of company culture or personality.Having a probationary period is also a risk mitigant. The policy and procedure below is one example ofa program. Amend to ﬁt your Foundations’s practices."
+        },
+        {
+          "chunk_id": 201,
+          "page": 34,
+          "document_name": "Template.pdf",
+          "content": "No matter how robust the recruitment process, it isall too easy to employ someone whounderperforms or simply doesn’t ﬁt the organization. Having a probationary period gives you theopportunity to assess suitability for a role. Youcould ﬁnd, a few weeks or months into the relationship,that the employee isn’t able to deliver the performanceor doesn’t have the skills promised at interview,has poor attendance or timekeeping or just doesn’tﬁt in terms of company culture or personality.Having a"
+        },
+        {
+          "chunk_id": 152,
+          "page": 25,
+          "document_name": "Template.pdf",
+          "content": "leave’ days under the EmploymentStandards Act. These may be taken at any time oncean employee begins work (i.e. regardless of probationaryperiod). However, they do not need to be paid."
+        }
+      ]
+    },
+    {
+      "id": "a06",
+      "question": "When is a three-month evaluation of new employees conducted?",
+      "answerable": true,
+      "reference_answer": "A three-month evaluation of all new employees will be conducted, followed by a probationary review at the end of the sixth month.",
+      "rag_answer": "The three-month evaluation of new employees is conducted after three months of employment.\n\nSources: Template.pdf, page 34",
+      "retrieved_chunks": [
+        {
+          "chunk_id": 203,
+          "page": 34,
+          "document_name": "Template.pdf",
+          "content": "Policy and Procedure Statement\nAll employees have a six-month probationary period. A three-month evaluation of all new employees will beconducted followed by a probationary review that will be conducted at the end of the sixth month of employment.\nProcedure:\n1. The employee’s immediate supervisor will completethe probationary review and shall inform theemployee in writing, not less than two weeks priorto the end of the probationary period, the date ofthe review."
+        },
+        {
+          "chunk_id": 213,
+          "page": 35,
+          "document_name": "Template.pdf",
+          "content": "Procedures:\n1. Support employees will be notiﬁed in writing at leasttwo weeks prior to the date of the performancereview. A blank copy of the “Performance Appraisal”form, with the exception of the “Goals andObjectives” section, will be provided to the employee. Employees are asked to ﬁll out the evaluationbased on how they would appraise themselves. The evaluationform needs to be completed andreturned to the Chief Executive Oﬃcer within oneweek."
+        },
+        {
+          "chunk_id": 212,
+          "page": 35,
+          "document_name": "Template.pdf",
+          "content": "Policy and Procedure Statement\nAll staﬀ of the Foundation shall receive performancereviews after six months and one year. In the secondyear ofemployment, performance reviews for new employeeswill be conducted annually at the same time as otherFoundation employees. The Chair of the Board of Directorsevaluates the performance of the ED/CEO. Employees’immediate supervisor evaluates the performance ofthe employees whom they are supervising.\nProcedures:"
+        },
+        {
+          "chunk_id": 204,
+          "page": 34,
+          "document_name": "Template.pdf",
+          "content": "2. If the ED/CEO is the new employee, an elected representative(s) from the Board of Directors willcomplete the review and shall inform the ED/CEO inwriting, not less than two weeks prior to the endofthe probationary period, the date of the review."
+        },
+        {
+          "chunk_id": 209,
+          "page": 35,
+          "document_name": "Template.pdf",
+          "content": "announced that they are moving towardsmore ongoing discussions and feedback withemployees.  Whether it’s traditional six or twelve-monthreviews and appraisals, or ongoingone-to-ones and performance catch ups, the importantelement is that there is a clear and consistentapproach to performance management and reviews.  Themost signiﬁcant beneﬁt of the appraisalsystem is that it provides a document of employeeperformance over a speciﬁc period of time, whichisa signiﬁcant risk mitigant. The policy"
+        }
+      ]
+    },
+    {
+      "id": "a07",
+      "question": "What is the maximum time an employee may claim per day for out-of-town trips or conferences?",
+      "answerable": true,
+      "reference_answer": "The maximum time that an employee may claim is 12 hours per day.",
+      "rag_answer": "The maximum time an employee may claim per day for out-of-town trips or conferences is **12 hours**.\n\nSources:\n- Template.pdf, page: 12",
+      "retrieved_chunks": [
+        {
+          "chunk_id": 60,
+          "page": 12,
+          "document_name": "Template.pdf",
+          "content": "The maximum time that an employee may claim is 12hours per day of work time for out of town trips orconferences.\nEmployees must be properly authorized to work overtimein advance as a condition for being credited forsuchovertime, except in emergency situations where priorconsent cannot be obtained. In such cases, the employeewilladvise the ED/CEO of circumstances as soon as possible.\nEmployees shall be required to submit a completed“Overtime Approval Form” to the ED/CEO for approval."
+        },
+        {
+          "chunk_id": 125,
+          "page": 22,
+          "document_name": "Template.pdf",
+          "content": "Vacation Schedule\n● After completing one full year of service 2 weeks\n● 5 – 10 years continuous service 3 weeks (after completionof the 5th year)\n● more than 10 years of service 4 weeks (after completionof the 10th year)\nPart-time Employees –Part-time employees will accumulateone day per month in lieu of payment of 4% vacationpay. The day is equivalent to the normal number ofhours regularly worked by the employee."
+        },
+        {
+          "chunk_id": 126,
+          "page": 22,
+          "document_name": "Template.pdf",
+          "content": "It is understood all part-time employees are requiredto take a minimum two (2) weeks of vacation time, either paidor unpaid, during the vacation period in accordancewith the Employment Standards Act(ensure that thisclausealigns with your provincial legislation).\nIf the accumulated vacation credit is not used bythe employee’s anniversary date, then it will be paidout to theemployee.\nPolicies and Procedures Template - Page22"
+        },
+        {
+          "chunk_id": 124,
+          "page": 22,
+          "document_name": "Template.pdf",
+          "content": "● After completing one full year of service ten workingdays\n● Five to ten years continuous service ﬁfteen workingdays\n● More than ten years of service twenty working days\nPolicy and Procedure Statement (earning vacation days)\nFull-time Employees –The Foundation pays vacationtime to full-time employees. Vacation should be takenin fullduring the employment year. Cash payments will notbe made in lieu of vacation except upon terminationofemployment.\nVacation Schedule"
+        },
+        {
+          "chunk_id": 59,
+          "page": 12,
+          "document_name": "Template.pdf",
+          "content": "The Foundation will grant time oﬀ for hours workedbeyond what would be considered a standard work week. Anyhours worked in excess of 8 hours per day or 44 hoursin a week will be banked at 1.5 times of the employee’sactual hours worked. The time oﬀ will be taken ata time mutually agreeable to the ED/CEO and the employee(s). Ifthe accumulated time is not taken within six months, the employer will pay the overtime hours at the prescribedrate of 1.5 times the employee’s regular wage."
+        }
+      ]
+    },
+    {
+      "id": "a08",
+      "question": "How is overtime calculated according to the policy?",
+      "answerable": true,
+      "reference_answer": "Overtime is anything over 8 hours in a day and excess of 44 hours in a week. Hours are banked at 1.5 times the actual hours worked.",
+      "rag_answer": "Overtime is defined as work exceeding 8 hours in a day or 44 hours in a week for full-time employees. Employees can claim up to 12 hours per day for out-of-town trips or conferences. Overtime hours are paid at 1.5 times the regular wage and must be taken mutually agreed upon, with employer support if not claimed within six months.\n\nSources:\n- Template.pdf, page: 12\n- Template.pdf, page: 44",
+      "retrieved_chunks": [
+        {
+          "chunk_id": 58,
+          "page": 12,
+          "document_name": "Template.pdf",
+          "content": "Policy and Procedure Statement\nOvertime is considered to be anything over 8 hoursworked in a day and excess of 44 hours in a weekfor full-timeemployees."
+        },
+        {
+          "chunk_id": 60,
+          "page": 12,
+          "document_name": "Template.pdf",
+          "content": "The maximum time that an employee may claim is 12hours per day of work time for out of town trips orconferences.\nEmployees must be properly authorized to work overtimein advance as a condition for being credited forsuchovertime, except in emergency situations where priorconsent cannot be obtained. In such cases, the employeewilladvise the ED/CEO of circumstances as soon as possible.\nEmployees shall be required to submit a completed“Overtime Approval Form” to the ED/CEO for approval."
+        },
+        {
+          "chunk_id": 59,
+          "page": 12,
+          "document_name": "Template.pdf",
+          "content": "The Foundation will grant time oﬀ for hours workedbeyond what would be considered a standard work week. Anyhours worked in excess of 8 hours per day or 44 hoursin a week will be banked at 1.5 times of the employee’sactual hours worked. The time oﬀ will be taken ata time mutually agreeable to the ED/CEO and the employee(s). Ifthe accumulated time is not taken within six months, the employer will pay the overtime hours at the prescribedrate of 1.5 times the employee’s regular wage."
+        },
+        {
+          "chunk_id": 282,
+          "page": 44,
+          "document_name": "Template.pdf",
+          "content": "https://www.wcb.mb.ca/workers-compensation-coverage\nPolicies and Procedures Template - Page44"
+        },
+        {
+          "chunk_id": 341,
+          "page": 53,
+          "document_name": "Template.pdf",
+          "content": "Workers Compensation Act and OccupationalHealth and Safety Act"
+        }
+      ]
+    },
+    {
+      "id": "a09",
+      "question": "What happens if accumulated overtime is not taken within six months?",
+      "answerable": true,
+      "reference_answer": "The employer will pay the overtime hours at the prescribed rate of 1.5 times the employee's regular wage.",
+      "rag_answer": "If accumulated overtime is not taken within six months, the employer will be responsible for paying the employee for those extra hours at 1.5 times their regular wage.\n\nSources:\nTemplate.pdf, page: 12\nTemplate.pdf, page: 12",
+      "retrieved_chunks": [
+        {
+          "chunk_id": 60,
+          "page": 12,
+          "document_name": "Template.pdf",
+          "content": "The maximum time that an employee may claim is 12hours per day of work time for out of town trips orconferences.\nEmployees must be properly authorized to work overtimein advance as a condition for being credited forsuchovertime, except in emergency situations where priorconsent cannot be obtained. In such cases, the employeewilladvise the ED/CEO of circumstances as soon as possible.\nEmployees shall be required to submit a completed“Overtime Approval Form” to the ED/CEO for approval."
+        },
+        {
+          "chunk_id": 59,
+          "page": 12,
+          "document_name": "Template.pdf",
+          "content": "The Foundation will grant time oﬀ for hours workedbeyond what would be considered a standard work week. Anyhours worked in excess of 8 hours per day or 44 hoursin a week will be banked at 1.5 times of the employee’sactual hours worked. The time oﬀ will be taken ata time mutually agreeable to the ED/CEO and the employee(s). Ifthe accumulated time is not taken within six months, the employer will pay the overtime hours at the prescribedrate of 1.5 times the employee’s regular wage."
+        },
+        {
+          "chunk_id": 58,
+          "page": 12,
+          "document_name": "Template.pdf",
+          "content": "Policy and Procedure Statement\nOvertime is considered to be anything over 8 hoursworked in a day and excess of 44 hours in a weekfor full-timeemployees."
+        },
+        {
+          "chunk_id": 53,
+          "page": 11,
+          "document_name": "Template.pdf",
+          "content": "If an employee is required to leave the Foundationduring normal working hours, he/she is required tonotifyco-workers, as well as the ED/CEO\nAll employees at the Foundation will be paid on aweekly/biweekly/monthlybasis with the opportunityof amid-month advance.\nEmployees shall be required to submit a completed“Timesheet” in the attached form to the Chief ExecutiveOﬃcerby the 26th of each month(adjust to ﬁt your Foundation’spractices and pay periods)."
+        },
+        {
+          "chunk_id": 144,
+          "page": 24,
+          "document_name": "Template.pdf",
+          "content": "Sick leave is accrued based on a staﬀ member’s regularlyscheduled hours of work. A full-time employee accruessick leave at the rate of ten days each calendar year. A regular part time employee accrues sick leave ona pro-ratabasis. Sick leave may not be carried over into a subsequentcalendar year and it cannot be cashed out as it hasnointrinsic cash value. Sick leave balances are notearned compensation nor are they payable at terminationofemployment. Sick leave is paid on a straight timebasis"
+        }
+      ]
+    },
+    {
+      "id": "a10",
+      "question": "What is the Foundation's non-owned automobile insurance limit?",
+      "answerable": true,
+      "reference_answer": "The Foundation's limit for non-owned automobiles is $2 million.",
+      "rag_answer": "The Foundation's non-owned automobile insurance limit is **$2 million**. This is explicitly stated in the context provided.\n\nSources:\nTemplate.pdf, page: 19",
+      "retrieved_chunks": [
+        {
+          "chunk_id": 104,
+          "page": 19,
+          "document_name": "Template.pdf",
+          "content": "Policy and Procedure Statement\nWhen an employee or volunteer is using a personal vehicle while on Foundation business, their personal autoinsurance is the primary insurer. The Foundation’slimit for non-owned automobiles is $2 million. Thisis paid inexcess of the underlying automobile insurance forthe owner of said vehicle."
+        },
+        {
+          "chunk_id": 102,
+          "page": 19,
+          "document_name": "Template.pdf",
+          "content": "Most foundations are not in a position to own or leasevehicles, which means employees are usingtheir own vehicles for foundation business. The purposeof this policy is to outline the employee’s andthe Foundation’s insurance coverage when an employeeuses their own vehicle for Foundationbusiness. In this instance the Foundation’s insurancecoverage must include non-owned auto. Thepolicy also applies to volunteers using their automobileon Foundation business. The Foundation’snon-owned auto coverage"
+        },
+        {
+          "chunk_id": 103,
+          "page": 19,
+          "document_name": "Template.pdf",
+          "content": "to volunteers using their automobileon Foundation business. The Foundation’snon-owned auto coverage limit needs to be substitutedfor the limits in the policy below. TheFoundation also needs to get conﬁrmation from theiremployee or volunteer that they are suitablyinsured."
+        },
+        {
+          "chunk_id": 105,
+          "page": 19,
+          "document_name": "Template.pdf",
+          "content": "For example, if the employee has an underlying liabilitylimit of $1 million (as is typical) and uses a personal vehiclefor Foundation purposes and a claim is substantiatedin the amount of $2.5 million, the owner’s automobilepolicywould pick up the ﬁrst $1 million and the Foundation’sinsurance would pick up the additional $1.5 million.\nContact with media"
+        },
+        {
+          "chunk_id": 113,
+          "page": 21,
+          "document_name": "Template.pdf",
+          "content": "Group Insurance Beneﬁts: note: if your foundation provides group insurance, enter the parameters into thisparagraph, including who pays the premium and whenthe group insurance starts for new employees.\nOne component of the Group Insurance plan is an EmployeeAssistance Program which provides up to 12 hoursofface to face counseling per year, per employee."
+        }
+      ]
+    },
+    {
+      "id": "a11",
+      "question": "How many sick days does a full-time employee accrue per calendar year?",
+      "answerable": true,
+      "reference_answer": "A full-time employee accrues sick leave at the rate of ten days each calendar year.",
+      "rag_answer": "Based on the provided context, a full-time employee accrues **ten** sick days per calendar year. This is explicitly stated in the document on page 24 of Template.pdf.\n\nSources:\n- Template.pdf, page: 24",
+      "retrieved_chunks": [
+        {
+          "chunk_id": 150,
+          "page": 25,
+          "document_name": "Template.pdf",
+          "content": "three (3) days per calendar year). Sickleave is provided for the reasons stated in this policyand may not be used for other purposes. Sick leavepay maynot be advanced."
+        },
+        {
+          "chunk_id": 151,
+          "page": 25,
+          "document_name": "Template.pdf",
+          "content": "In cases of illness, which is expected to continuebeyond sick leave accrual, the Short-Term DisabilityBeneﬁt(ifapplicable) and/or Family or Personal Leave provisionsof applicable provincial legislation will apply. Regularfull-time employees earn sick leave from the ﬁrstfull payroll period worked. Paid sick leave may notbe taken inadvance of accrual. However, employees are allowed10 ‘personal emergency leave’ days under the EmploymentStandards Act. These may be taken at any time oncean employee"
+        },
+        {
+          "chunk_id": 147,
+          "page": 25,
+          "document_name": "Template.pdf",
+          "content": "Sick leave will not accrue for any period during which an employee is absent from work for more than tenworkdays, except for absence due to holidays, vacation and personal days and approved Employment StandardAct leaves. When an eligible employee will be oﬀon Sick leave, he/she must notify his/her supervisoras soon ashe/she knows that he/she will be unable to work, butno later than the starting time of the employee’swork day.Employees must notify their supervisor on each dayof absence unless"
+        },
+        {
+          "chunk_id": 141,
+          "page": 24,
+          "document_name": "Template.pdf",
+          "content": "Sick days reduce turnover. Studies have shown thatcompanies that oﬀer paid sick leave see areduction in employee turnover somewhere between 3.61%to 6.43%. Low turnover maintainsconsistent productivity, boosts employee engagementand morale, and builds a sense of unitybetween staﬀ and managers. Foundations are encouragedto include this policy within their documentas it provides clarity for handling employee absencedue to illness. The following policy can form thebasis of one developed for your"
+        },
+        {
+          "chunk_id": 144,
+          "page": 24,
+          "document_name": "Template.pdf",
+          "content": "Sick leave is accrued based on a staﬀ member’s regularlyscheduled hours of work. A full-time employee accruessick leave at the rate of ten days each calendar year. A regular part time employee accrues sick leave ona pro-ratabasis. Sick leave may not be carried over into a subsequentcalendar year and it cannot be cashed out as it hasnointrinsic cash value. Sick leave balances are notearned compensation nor are they payable at terminationofemployment. Sick leave is paid on a straight timebasis"
+        }
+      ]
+    },
+    {
+      "id": "a12",
+      "question": "Can sick leave be carried over into the next calendar year?",
+      "answerable": true,
+      "reference_answer": "No, sick leave may not be carried over into a subsequent calendar year and it cannot be cashed out.",
+      "rag_answer": "Based on the provided policy document, sick leave is limited to a maximum of three (3) days per calendar year for employees. This means that sick leave cannot be carried over from one year to the next under this policy.\n\nSources:\nTemplate.pdf - Page 25\nTemplate.pdf - Page 24",
+      "retrieved_chunks": [
+        {
+          "chunk_id": 150,
+          "page": 25,
+          "document_name": "Template.pdf",
+          "content": "three (3) days per calendar year). Sickleave is provided for the reasons stated in this policyand may not be used for other purposes. Sick leavepay maynot be advanced."
+        },
+        {
+          "chunk_id": 147,
+          "page": 25,
+          "document_name": "Template.pdf",
+          "content": "Sick leave will not accrue for any period during which an employee is absent from work for more than tenworkdays, except for absence due to holidays, vacation and personal days and approved Employment StandardAct leaves. When an eligible employee will be oﬀon Sick leave, he/she must notify his/her supervisoras soon ashe/she knows that he/she will be unable to work, butno later than the starting time of the employee’swork day.Employees must notify their supervisor on each dayof absence unless"
+        },
+        {
+          "chunk_id": 149,
+          "page": 25,
+          "document_name": "Template.pdf",
+          "content": "When an eligible salaried employee has been out onsick leave for more than three (3) consecutive scheduledworkdays, he/she is required to submit documentation froma health care provider to their supervisor certifyingthemedical necessity for the absence and expected dateof return to work. Sick leave may be used for illnessof theeligible employee or for illness of a member of his/herhousehold (up to three (3) days per calendar year). Sickleave is provided for the reasons stated in this policyand"
+        },
+        {
+          "chunk_id": 141,
+          "page": 24,
+          "document_name": "Template.pdf",
+          "content": "Sick days reduce turnover. Studies have shown thatcompanies that oﬀer paid sick leave see areduction in employee turnover somewhere between 3.61%to 6.43%. Low turnover maintainsconsistent productivity, boosts employee engagementand morale, and builds a sense of unitybetween staﬀ and managers. Foundations are encouragedto include this policy within their documentas it provides clarity for handling employee absencedue to illness. The following policy can form thebasis of one developed for your"
+        },
+        {
+          "chunk_id": 153,
+          "page": 25,
+          "document_name": "Template.pdf",
+          "content": "Sick Leave must be recorded as such on payroll timesheets so that accurate records can be maintained. Allinformation about an employee’s medical conditionis conﬁdential and must be kept by the ED/CEO ina ﬁleseparate from the employee’s personnel ﬁle. Whenan employee is absent for medical reasons, the employee’sregular personnel ﬁle will contain only the datesof the medical absence, not the medical reason(s) for the absence."
+        }
+      ]
+    },
+    {
+      "id": "a13",
+      "question": "After how many consecutive sick days is a medical certificate required?",
+      "answerable": true,
+      "reference_answer": "After more than three consecutive scheduled work days.",
+      "rag_answer": "The employee must submit a medical certificate after accumulating **three (3) consecutive scheduled workdays** of sick leave. \n\nSources:\nTemplate.pdf, page 25",
+      "retrieved_chunks": [
+        {
+          "chunk_id": 149,
+          "page": 25,
+          "document_name": "Template.pdf",
+          "content": "When an eligible salaried employee has been out onsick leave for more than three (3) consecutive scheduledworkdays, he/she is required to submit documentation froma health care provider to their supervisor certifyingthemedical necessity for the absence and expected dateof return to work. Sick leave may be used for illnessof theeligible employee or for illness of a member of his/herhousehold (up to three (3) days per calendar year). Sickleave is provided for the reasons stated in this policyand"
+        },
+        {
+          "chunk_id": 150,
+          "page": 25,
+          "document_name": "Template.pdf",
+          "content": "three (3) days per calendar year). Sickleave is provided for the reasons stated in this policyand may not be used for other purposes. Sick leavepay maynot be advanced."
+        },
+        {
+          "chunk_id": 153,
+          "page": 25,
+          "document_name": "Template.pdf",
+          "content": "Sick Leave must be recorded as such on payroll timesheets so that accurate records can be maintained. Allinformation about an employee’s medical conditionis conﬁdential and must be kept by the ED/CEO ina ﬁleseparate from the employee’s personnel ﬁle. Whenan employee is absent for medical reasons, the employee’sregular personnel ﬁle will contain only the datesof the medical absence, not the medical reason(s) for the absence."
+        },
+        {
+          "chunk_id": 147,
+          "page": 25,
+          "document_name": "Template.pdf",
+          "content": "Sick leave will not accrue for any period during which an employee is absent from work for more than tenworkdays, except for absence due to holidays, vacation and personal days and approved Employment StandardAct leaves. When an eligible employee will be oﬀon Sick leave, he/she must notify his/her supervisoras soon ashe/she knows that he/she will be unable to work, butno later than the starting time of the employee’swork day.Employees must notify their supervisor on each dayof absence unless"
+        },
+        {
+          "chunk_id": 143,
+          "page": 24,
+          "document_name": "Template.pdf",
+          "content": "Policy and Procedure Statement\nThis policy applies to bona ﬁde non-occupational illnesses and injuries. The accumulation of sick leavetime allowscontinuation of full base pay plus beneﬁts when aneligible employee is required to be absent from workbecauseof non-occupational illnesses, injuries or medical conditions."
+        }
+      ]
+    },
+    {
+      "id": "a14",
+      "question": "What RRSP contribution does the Foundation provide to employees?",
+      "answerable": true,
+      "reference_answer": "A 4% contribution per pay period towards a self-directed RRSP, upon completion of the probationary period.",
+      "rag_answer": "The Foundation provides a 4% contribution per pay period to eligible full-time and part-time employees for their self-directed RRSP.\n\nSources:\nTemplate.pdf, page: 21",
+      "retrieved_chunks": [
+        {
+          "chunk_id": 115,
+          "page": 21,
+          "document_name": "Template.pdf",
+          "content": "RRSP: Upon successful completion of the probationaryperiod, full-time and part-time employees are entitledtoreceive a 4% contribution per pay period towards aself-directed RRSP. There is also an opportunityfor employeesto contribute to the same self-directed RRSP."
+        },
+        {
+          "chunk_id": 44,
+          "page": 9,
+          "document_name": "Template.pdf",
+          "content": "The Foundation recognizes that employees will be associatedwith organizations that, from time to time, may applyfor funding. This policy is directed towards the sourcesof most potential conﬂict which include conﬂictsarising as aresult of aﬃliation with:\n● an organization or individual which has, or is negotiating, a business relationship with Foundation,\n● an organization seeking funding or other support fromthe Foundation.\nDeﬁnitions:"
+        },
+        {
+          "chunk_id": 110,
+          "page": 20,
+          "document_name": "Template.pdf",
+          "content": "The Foundation is committed to a policy of salaryadministration which is internally and externallycompetitive andequitable and also recognizes and encourages individual performance. The purpose of the policy is to:\n● Ensure the fair and equitable salary treatment ofthe Foundation employees\n● Set salary levels which will enable the Foundationto recruit and retain qualiﬁed employees\n● Provide guidelines for ongoing salary administration\n● Promote individual performance"
+        },
+        {
+          "chunk_id": 123,
+          "page": 22,
+          "document_name": "Template.pdf",
+          "content": "Full-time Employees – The Foundation will providevacation pay to employees. The Foundation will payvacation atfour percent for the ﬁrst 4 years inclusive and thisthen becomes 6% to full-time employees in their ﬁfthyear. Whenvacation time is taken the accrued vacation dollarswill be paid to the employee.\nIt is understood all employees are required to takea minimum two (2) weeks of vacation time each peryear. Eachemployee will take scheduled vacation time oﬀ perthe following:"
+        },
+        {
+          "chunk_id": 27,
+          "page": 7,
+          "document_name": "Template.pdf",
+          "content": "3. Accountability and Transparency: In carrying out philanthropicactivities employees, volunteers andcontractors will act within the letter and the spiritof the law. The Foundation embraces public interest,takes full responsibility for its actions, communicatestruthfully, and ensures public records are easilyavailable while maintaining appropriate privacy andconﬁdentiality. The Foundation will manage itsresources carefully and frugally, actively avoidingexcessive expense."
+        }
+      ]
+    },
+    {
+      "id": "a15",
+      "question": "How much does the Foundation provide part-time employees for parking or bus pass?",
+      "answerable": true,
+      "reference_answer": "Part-time employees are entitled to receive $40 per month towards parking or bus pass.",
+      "rag_answer": "The Foundation provides part-time employees with a $40 monthly reimbursement for parking or bus pass expenses.\n\nSources:\nTemplate.pdf, page: 21",
+      "retrieved_chunks": [
+        {
+          "chunk_id": 116,
+          "page": 21,
+          "document_name": "Template.pdf",
+          "content": "Parking: Upon successful completion of the probationaryperiod, full-time employees are entitled to havetheirparking paid for by the Foundation. Part-time employeesare entitled to receive $40 per month towards parkingorbus pass (upon submission of receipts).\nVacation"
+        },
+        {
+          "chunk_id": 63,
+          "page": 13,
+          "document_name": "Template.pdf",
+          "content": "Employees will be reimbursed for expenses incurredin the fulﬁllment of Foundation responsibilities, uponsubmission of appropriate receipts to the ED/CEO forapproval within 30 days of the incurred expense. Whenemployees travel out of town to attend overnight Foundationrelated activities, such expenses include but arenotlimited to mileage and/or transportation costs, mealsand overnight accommodation. The Foundation will not coverthe cost of alcoholic beverages. Remuneration foruse of personal"
+        },
+        {
+          "chunk_id": 64,
+          "page": 13,
+          "document_name": "Template.pdf",
+          "content": "The Foundation will not coverthe cost of alcoholic beverages. Remuneration foruse of personal vehicles for business related activitiesshall be atthe rate of $0.48 per kilometer(insert your Foundation’srate – some Foundation’s use the federal government’sstandard mileage rate). Employees shall record anodometer log of all kilometers incurred on their personal vehicleduring the course of business. Mileage claims startfrom the employee’s normal place of business."
+        },
+        {
+          "chunk_id": 53,
+          "page": 11,
+          "document_name": "Template.pdf",
+          "content": "If an employee is required to leave the Foundationduring normal working hours, he/she is required tonotifyco-workers, as well as the ED/CEO\nAll employees at the Foundation will be paid on aweekly/biweekly/monthlybasis with the opportunityof amid-month advance.\nEmployees shall be required to submit a completed“Timesheet” in the attached form to the Chief ExecutiveOﬃcerby the 26th of each month(adjust to ﬁt your Foundation’spractices and pay periods)."
+        },
+        {
+          "chunk_id": 123,
+          "page": 22,
+          "document_name": "Template.pdf",
+          "content": "Full-time Employees – The Foundation will providevacation pay to employees. The Foundation will payvacation atfour percent for the ﬁrst 4 years inclusive and thisthen becomes 6% to full-time employees in their ﬁfthyear. Whenvacation time is taken the accrued vacation dollarswill be paid to the employee.\nIt is understood all employees are required to takea minimum two (2) weeks of vacation time each peryear. Eachemployee will take scheduled vacation time oﬀ perthe following:"
+        }
+      ]
+    },
+    {
+      "id": "a16",
+      "question": "Who is the official spokesperson for the Foundation on governance and policy issues?",
+      "answerable": true,
+      "reference_answer": "The Chair of the Board of the Foundation.",
+      "rag_answer": "The official spokesperson on governance and policy issues is the **Chair of the Board of the Foundation**.\n\nSources: Template.pdf, page 19",
+      "retrieved_chunks": [
+        {
+          "chunk_id": 108,
+          "page": 19,
+          "document_name": "Template.pdf",
+          "content": "The Chair of the Board of the Foundation is the oﬃcial spokesperson on governance and policy issues. TheED/CEO and the Chair of the Board speak on major announcements. The ED/CEO is the spokesperson onoperational issues. The ED/CEO is the media contact. Should other employees be contacted by the mediaforcomment, they are to refer the media to the ED/CEOwho will respond and/or refer appropriately.\nPolicies and Procedures Template - Page19"
+        },
+        {
+          "chunk_id": 44,
+          "page": 9,
+          "document_name": "Template.pdf",
+          "content": "The Foundation recognizes that employees will be associatedwith organizations that, from time to time, may applyfor funding. This policy is directed towards the sourcesof most potential conﬂict which include conﬂictsarising as aresult of aﬃliation with:\n● an organization or individual which has, or is negotiating, a business relationship with Foundation,\n● an organization seeking funding or other support fromthe Foundation.\nDeﬁnitions:"
+        },
+        {
+          "chunk_id": 9,
+          "page": 4,
+          "document_name": "Template.pdf",
+          "content": "For some community foundations, the senior staﬀ memberis the Executive Director (ED) and for others thetitle isChief Executive Oﬃcer (CEO). For the purposes ofthis document, any reference to either of these positionswill beas ED/CEO.\nPolicies and Procedures Template - Page4"
+        },
+        {
+          "chunk_id": 110,
+          "page": 20,
+          "document_name": "Template.pdf",
+          "content": "The Foundation is committed to a policy of salaryadministration which is internally and externallycompetitive andequitable and also recognizes and encourages individual performance. The purpose of the policy is to:\n● Ensure the fair and equitable salary treatment ofthe Foundation employees\n● Set salary levels which will enable the Foundationto recruit and retain qualiﬁed employees\n● Provide guidelines for ongoing salary administration\n● Promote individual performance"
+        },
+        {
+          "chunk_id": 106,
+          "page": 19,
+          "document_name": "Template.pdf",
+          "content": "Contact with media\nMedia relations are important for the Foundation asthis gets your name out in the publicconsciousness and informs the community of your Foundation’simpact, your programs, mission, andidentity. Having a media relations policy helps tomitigate reputational risk.\nThe Foundation needs to determine who has the authorityto speak on behalf of the Foundation to themedia, under diﬀerent scenarios. Amend the policybelow to ﬁt your Foundation’s practice.\nPolicy and Procedure Statement"
+        }
+      ]
+    },
+    {
+      "id": "a17",
+      "question": "What steps are in the progressive discipline process?",
+      "answerable": true,
+      "reference_answer": "Verbal warning (with written documentation), written warning, 2nd written warning or suspension, and termination.",
+      "rag_answer": "The progressive discipline process followed by the Foundation involves the following structured steps:\n\n1. **Initiation by Supervisor**: The employee's supervisor implements progressive discipline when addressing performance issues, adhering to the organization's guidelines.\n\n2. **Foundation Intervention (if needed)**: If unresolved after the initial steps, the Foundation takes further action through its consistent and fair procedures to correct the employee's performance.\n\nThis approach ensures a structured yet supportive method to address performance issues, aiming for improvement rather than punishment.",
+      "retrieved_chunks": [
+        {
+          "chunk_id": 224,
+          "page": 37,
+          "document_name": "Template.pdf",
+          "content": "Deﬁnitions:\nProgressive discipline:\n● Emphasizes correction and establishes clear goalsto help employees change from unsatisfactoryperformance to satisfactory performance.\n● Focuses on the performance rather than the person.\nPolicies and Procedures Template - Page37"
+        },
+        {
+          "chunk_id": 221,
+          "page": 37,
+          "document_name": "Template.pdf",
+          "content": "A progressive discipline policy provides many beneﬁtsto employers and employees.  Along with otherbeneﬁts, the policy provides structure and predictabilityto the discipline process, sets a basic set ofdiscipline standards for supervisors to follow, helpssupervisors document disciplinary actions and canbe instrumental in defeating discrimination, unemployment, and other work-related claims."
+        },
+        {
+          "chunk_id": 223,
+          "page": 37,
+          "document_name": "Template.pdf",
+          "content": "Policy and Procedure Statement\nThe Foundation will use progressive discipline forall employees whose performance requires improvement. Thepurpose of the process is to correct, not punish, those employees who have not followed Foundation guidingprinciples, policies and procedures. Consistent andfair procedures for progressive development giveemployeesample opportunity to improve.\nDeﬁnitions:\nProgressive discipline:"
+        },
+        {
+          "chunk_id": 225,
+          "page": 38,
+          "document_name": "Template.pdf",
+          "content": "Procedures:\n1. The employee’s supervisor will implement progressivediscipline when addressing performance issues.\n2. If, through the application of progressive discipline, conduct or performance problems are unable to beresolved, the Foundation will institute a process, which will result in increasingly directive actionstocorrect the employee’s performance. The employee’ssupervisor will follow a consistent procedure to:"
+        },
+        {
+          "chunk_id": 218,
+          "page": 37,
+          "document_name": "Template.pdf",
+          "content": "SECTION 7\nProblem Resolution\nProgressive Discipline"
+        }
+      ]
+    },
+    {
+      "id": "a18",
+      "question": "Within how many days must an employee report a harassment incident to their supervisor?",
+      "answerable": true,
+      "reference_answer": "Within seven days of the incident.",
+      "rag_answer": "The employee must report the harassment incident to their supervisor within seven (7) days of the incident occurring. \n\nSources: Template.pdf, page 40",
+      "retrieved_chunks": [
+        {
+          "chunk_id": 246,
+          "page": 40,
+          "document_name": "Template.pdf",
+          "content": "3. If the harassing behaviour continues, or if you feel unable to approach the harasser directly about thisproblem, report the incident to the appropriate supervisorwithin seven (7) days of the incident. If thesupervisor is the cause of the problem the situationshould be discussed with the ED/CEO. If theED/CEO is the cause of the problem the situation shouldbe discussed with the Board Chair. Theemployee, volunteer or contractor has the choice ofeither discussing the problem (in the case of"
+        },
+        {
+          "chunk_id": 227,
+          "page": 38,
+          "document_name": "Template.pdf",
+          "content": "● Written Warning (and privately hold a second discussionwith that employee regardingconduct)\n● 2nd written warning or suspension with or withoutpay (this may be purged from theemployee’s ﬁle if there is no recurrence over thenext 24 months)\n● Termination\nComplaint and Anti-Harassment Policy"
+        },
+        {
+          "chunk_id": 31,
+          "page": 7,
+          "document_name": "Template.pdf",
+          "content": "The Foundation has developed a morecomprehensive policy addressing the details surroundingthis issue. Please refer to the Anti-Harassment Policyfurther on in this document."
+        },
+        {
+          "chunk_id": 29,
+          "page": 7,
+          "document_name": "Template.pdf",
+          "content": "Harassment-free Workplace\nHarassed employees, volunteers and contractors candevelop anxiety, panic attacks and avoidancebehaviours that decrease their eﬀectiveness. Theycan lose motivation and experience a decline intheir health and decision-making ability. Harassmentcan also result in legal costs and can damage theFoundation’s reputation.\nPolicy and Procedure Statement"
+        },
+        {
+          "chunk_id": 228,
+          "page": 38,
+          "document_name": "Template.pdf",
+          "content": "All employers are responsible for providing a workplacefree from harassment.  Employers areobligated to take appropriate action against any employee, volunteer or contractor who harassessomeone.  Otherwise, an employer can be held responsiblefor harassment committed by them.Adopting a harassment policy can foster an environmentof respect for human rights and helps peoplein the organization understand their rights and responsibilities. Policies can protect an organizationfrom discrimination"
+        }
+      ]
+    },
+    {
+      "id": "a19",
+      "question": "What does the Foundation's dress code policy say about business meetings?",
+      "answerable": true,
+      "reference_answer": "Employees asked to attend business meetings with clients should dress in appropriate business attire.",
+      "rag_answer": "The Foundation's dress code policy mandates that employees wear appropriate business attire during business meetings with clients, whether held in the offices or elsewhere.\n\nSources:\nTemplate.pdf, page: 12",
+      "retrieved_chunks": [
+        {
+          "chunk_id": 55,
+          "page": 12,
+          "document_name": "Template.pdf",
+          "content": "Dress Code\nInclude this policy if dress code at work mattersto your Foundation.\nPolicy and Procedure Statement\nMaintaining a professional, business-like appearanceis very important to the success of the Foundation.\nRegardless of the employee’s interaction with clients, customers, suppliers, contractors, or volunteers, eachemployee projects the reputation of the organization. Part of this impression depends on each employee’schoiceof attire."
+        },
+        {
+          "chunk_id": 56,
+          "page": 12,
+          "document_name": "Template.pdf",
+          "content": "The Foundation has chosen to oﬀer a casual dressenvironment for employees. Employees are expectedto usegood judgment and to show courtesy to their co-workersby dressing in a manner that is presentable andappropriate. At all times employees are asked to becognizant that regardless of their interaction withclients,customers, suppliers, contractors, or volunteers, the Foundation is still a place of business."
+        },
+        {
+          "chunk_id": 57,
+          "page": 12,
+          "document_name": "Template.pdf",
+          "content": "Should employees be asked to attend business meetingswith clients, either in the Foundation oﬃces orotherwise,they should dress in appropriate business attire.\nOvertime/Lieu Time\nThis section needs to align with your provincial employmentstandards. The policy suggested is anapproach that you can take but you may want to handlehours worked beyond the standard work weekin a diﬀerent way than the below policy suggests.\nPolicy and Procedure Statement"
+        },
+        {
+          "chunk_id": 2,
+          "page": 2,
+          "document_name": "Template.pdf",
+          "content": "Dress Code 12\nOvertime/Lieu Time 12\nTravel and Expense Claims 13\nStatutory Holidays 13\nPersonnel Conﬁdentiality 13\nOutside Employment 14\nParticipation in Community Activities 14\nSolicitation on Foundation Property 15\nPersonal Use of Foundation Equipment 15\nAccuracy of Records 16\nTechnology Use 16\nCell Phone Use 18\nInsurance for Employee Use of own Auto 19\nContact with media 19\nPolicies and Procedures Template - Page2"
+        },
+        {
+          "chunk_id": 156,
+          "page": 26,
+          "document_name": "Template.pdf",
+          "content": "Policy and Procedure Statement\nThe Foundation acknowledges it has a duty under thecurrent Occupational Health & Safety Legislation(insertappropriate name of provincial legislation) and Federal Labour Standards to take all reasonable precautionstoprotect all persons working on site, (employee, volunteers, board members, donors) and all visitors."
+        }
+      ]
+    },
+    {
+      "id": "a20",
+      "question": "What are the three basic rights for employees under the health and safety model?",
+      "answerable": true,
+      "reference_answer": "The right to know about workplace safety hazards, the right to refuse unsafe work, and the right to participate in the occupational health and safety process.",
+      "rag_answer": "Under the health and safety model, employees have three basic rights:\n\n1. The right to know about workplace safety hazards.\n2. The right to refuse unsafe work if they have reasonable cause to believe the work is dangerous.\n3. The right to participate in the occupational health and safety process.\n\nThese rights are outlined on page 26 of Template.pdf.  \nSources: Template.pdf, page 26",
+      "retrieved_chunks": [
+        {
+          "chunk_id": 158,
+          "page": 26,
+          "document_name": "Template.pdf",
+          "content": "Employee, Volunteer and Contractors’ Rights\nThere are three basic rights for employees, volunteersand contractors under the joint responsibility healthandsafety model:\n● The right to know about workplace safety hazards,\n● The right to refuse unsafe work if they have “reasonablecause to believe the work is dangerous”,\n● The right to participate in the occupational healthand safety process.\nEmployee, Volunteer and Contractors’ Obligations"
+        },
+        {
+          "chunk_id": 292,
+          "page": 46,
+          "document_name": "Template.pdf",
+          "content": "Workplace Health, Safety andCompensation ActThe Act imposes certain minimum conditions on allworkplaces that ensures that workers are providedwithan environment that neither impairs their health orimperils their safety. An employer shall ensure, whereit isreasonably practicable, the health, safety and welfareofhis or her workers. (g) shall cooperate with a personexercising a duty imposed by this Act or regulations.Employers that do business and have employees inNewfoundland and Labrador must"
+        },
+        {
+          "chunk_id": 155,
+          "page": 26,
+          "document_name": "Template.pdf",
+          "content": "SECTION 5\nHealth and Safety\nHealth and Safety\nCanadian health and safety legislation requires employersto have a health and safety program in theirworkplace. A written policy helps to promote an eﬀectprogram. Such policy should reﬂect the specialneeds of the workplace and should be regularly reviewedand updated.\nFoundation’s should refer to their provincial Occupational Health and Safety regulations whendeveloping this policy, links to which can be foundin Appendix A."
+        },
+        {
+          "chunk_id": 341,
+          "page": 53,
+          "document_name": "Template.pdf",
+          "content": "Workers Compensation Act and OccupationalHealth and Safety Act"
+        },
+        {
+          "chunk_id": 273,
+          "page": 43,
+          "document_name": "Template.pdf",
+          "content": "Occupational Health and Safety Regulation\nThe Regulation contains legal requirements that mustbemet by all workplaces under the inspectional jurisdictionof WorkSafeBC and covers most workplaces in B.C. Thepurpose of the Regulation is to promote occupationalhealth and safety and to protect workers and otherpersons present at workplaces from work-related riskstotheir health, safety, and well-being."
+        }
+      ]
+    },
+    {
+      "id": "a21",
+      "question": "Does the Foundation cover the cost of alcoholic beverages during travel?",
+      "answerable": true,
+      "reference_answer": "No, the Foundation will not cover the cost of alcoholic beverages.",
+      "rag_answer": "Based on the provided context from Template.pdf:\n\n- The Foundation does not cover the cost of alcoholic beverages during travel or at any events.\n\nSources:\nTemplate.pdf - Page 13\nTemplate.pdf - Page 28",
+      "retrieved_chunks": [
+        {
+          "chunk_id": 166,
+          "page": 28,
+          "document_name": "Template.pdf",
+          "content": "Use of Alcohol:\nThe Foundation does not provide funds for the purchaseof alcohol at Foundation sponsored activities. However,employees may consume alcohol if they so choose underthe following guidelines:\nA. Employees are expected to make travel arrangementsat functions where they are representing theFoundation and at which they are consuming alcohol, such as: assign a designated driver, takealternate transportation, arrange to stay in a hotel"
+        },
+        {
+          "chunk_id": 64,
+          "page": 13,
+          "document_name": "Template.pdf",
+          "content": "The Foundation will not coverthe cost of alcoholic beverages. Remuneration foruse of personal vehicles for business related activitiesshall be atthe rate of $0.48 per kilometer(insert your Foundation’srate – some Foundation’s use the federal government’sstandard mileage rate). Employees shall record anodometer log of all kilometers incurred on their personal vehicleduring the course of business. Mileage claims startfrom the employee’s normal place of business."
+        },
+        {
+          "chunk_id": 63,
+          "page": 13,
+          "document_name": "Template.pdf",
+          "content": "Employees will be reimbursed for expenses incurredin the fulﬁllment of Foundation responsibilities, uponsubmission of appropriate receipts to the ED/CEO forapproval within 30 days of the incurred expense. Whenemployees travel out of town to attend overnight Foundationrelated activities, such expenses include but arenotlimited to mileage and/or transportation costs, mealsand overnight accommodation. The Foundation will not coverthe cost of alcoholic beverages. Remuneration foruse of personal"
+        },
+        {
+          "chunk_id": 131,
+          "page": 23,
+          "document_name": "Template.pdf",
+          "content": "From time to time employees will be requested to takeup-grading courses or other courses related to theirposition. The Foundation shall pay ﬂights and accommodations(if required), as well as tuition costs for thesecourses. The Foundation shall pay for a regular dayof work only, travel time is not paid. Employeeswill beresponsible for all meals and incidentals. All coursesmust have prior written approval from the ED/CEO.\nLeave of Absence"
+        },
+        {
+          "chunk_id": 163,
+          "page": 27,
+          "document_name": "Template.pdf",
+          "content": "D. Notify their supervisor if they suspect that a co-workeris unﬁt for duty\nE. Consume intoxicants in a responsible manner at all times when at Foundation events and otherfunctions where employees represent the Foundation.\nThe Foundation will help and encourage employees whorecognize a problem by referring them to treatmentfacilities. Employees who would like additional informationregarding this matter should contact the ED/CEO. Allsuch inquiries will be treated with the utmost conﬁdence."
+        }
+      ]
+    },
+    {
+      "id": "a22",
+      "question": "What is the deadline for submitting expense receipts?",
+      "answerable": true,
+      "reference_answer": "Within 30 days of the incurred expense.",
+      "rag_answer": "The deadline for submitting expense receipts is 30 days after incurring the expense.  \n\nSources: Template.pdf, page: 13",
+      "retrieved_chunks": [
+        {
+          "chunk_id": 213,
+          "page": 35,
+          "document_name": "Template.pdf",
+          "content": "Procedures:\n1. Support employees will be notiﬁed in writing at leasttwo weeks prior to the date of the performancereview. A blank copy of the “Performance Appraisal”form, with the exception of the “Goals andObjectives” section, will be provided to the employee. Employees are asked to ﬁll out the evaluationbased on how they would appraise themselves. The evaluationform needs to be completed andreturned to the Chief Executive Oﬃcer within oneweek."
+        },
+        {
+          "chunk_id": 63,
+          "page": 13,
+          "document_name": "Template.pdf",
+          "content": "Employees will be reimbursed for expenses incurredin the fulﬁllment of Foundation responsibilities, uponsubmission of appropriate receipts to the ED/CEO forapproval within 30 days of the incurred expense. Whenemployees travel out of town to attend overnight Foundationrelated activities, such expenses include but arenotlimited to mileage and/or transportation costs, mealsand overnight accommodation. The Foundation will not coverthe cost of alcoholic beverages. Remuneration foruse of personal"
+        },
+        {
+          "chunk_id": 60,
+          "page": 12,
+          "document_name": "Template.pdf",
+          "content": "The maximum time that an employee may claim is 12hours per day of work time for out of town trips orconferences.\nEmployees must be properly authorized to work overtimein advance as a condition for being credited forsuchovertime, except in emergency situations where priorconsent cannot be obtained. In such cases, the employeewilladvise the ED/CEO of circumstances as soon as possible.\nEmployees shall be required to submit a completed“Overtime Approval Form” to the ED/CEO for approval."
+        },
+        {
+          "chunk_id": 62,
+          "page": 13,
+          "document_name": "Template.pdf",
+          "content": "Travel and Expense Claims\nPolicy and Procedure Statement"
+        },
+        {
+          "chunk_id": 204,
+          "page": 34,
+          "document_name": "Template.pdf",
+          "content": "2. If the ED/CEO is the new employee, an elected representative(s) from the Board of Directors willcomplete the review and shall inform the ED/CEO inwriting, not less than two weeks prior to the endofthe probationary period, the date of the review."
+        }
+      ]
+    },
+    {
+      "id": "a23",
+      "question": "How many hours of counseling does the Employee Assistance Program provide?",
+      "answerable": true,
+      "reference_answer": "Up to 12 hours of face-to-face counseling per year, per employee.",
+      "rag_answer": "I don't know based on the provided documents.",
+      "retrieved_chunks": [
+        {
+          "chunk_id": 113,
+          "page": 21,
+          "document_name": "Template.pdf",
+          "content": "Group Insurance Beneﬁts: note: if your foundation provides group insurance, enter the parameters into thisparagraph, including who pays the premium and whenthe group insurance starts for new employees.\nOne component of the Group Insurance plan is an EmployeeAssistance Program which provides up to 12 hoursofface to face counseling per year, per employee."
+        },
+        {
+          "chunk_id": 60,
+          "page": 12,
+          "document_name": "Template.pdf",
+          "content": "The maximum time that an employee may claim is 12hours per day of work time for out of town trips orconferences.\nEmployees must be properly authorized to work overtimein advance as a condition for being credited forsuchovertime, except in emergency situations where priorconsent cannot be obtained. In such cases, the employeewilladvise the ED/CEO of circumstances as soon as possible.\nEmployees shall be required to submit a completed“Overtime Approval Form” to the ED/CEO for approval."
+        },
+        {
+          "chunk_id": 59,
+          "page": 12,
+          "document_name": "Template.pdf",
+          "content": "The Foundation will grant time oﬀ for hours workedbeyond what would be considered a standard work week. Anyhours worked in excess of 8 hours per day or 44 hoursin a week will be banked at 1.5 times of the employee’sactual hours worked. The time oﬀ will be taken ata time mutually agreeable to the ED/CEO and the employee(s). Ifthe accumulated time is not taken within six months, the employer will pay the overtime hours at the prescribedrate of 1.5 times the employee’s regular wage."
+        },
+        {
+          "chunk_id": 11,
+          "page": 5,
+          "document_name": "Template.pdf",
+          "content": "This Human Resource Policy and Procedures Handbookwill provide each employee, volunteer, and contractorwiththe guidelines necessary in building a healthy environment. There is no guarantee that satisfaction can be giveninevery case, but the Foundation will endeavor to dothe very best to provide an acceptable explanationof its ﬁnaldecisions.\nThe objectives to this handbook are to:"
+        },
+        {
+          "chunk_id": 1,
+          "page": 2,
+          "document_name": "Template.pdf",
+          "content": "TABLE OF CONTENTS\nSECTION 1\nIntroduction\nObjectives of the Template 4\nObjectives of the Human Resource Policy 5\nEligibility & Scope 5\nImplementation & Monitoring 5\nFile Management and Amendments 5\nSECTION 2\nGeneral Policies\nDecent Work 6\nCode of Ethics 6\nHarassment-Free Workplace 7\nConﬁdentiality 8\nConﬂict of Interest 9\nReporting Violations 10\nSECTION 3\nEmploymentInformation\nHours of Work 11\nDress Code 12\nOvertime/Lieu Time 12\nTravel and Expense Claims 13\nStatutory Holidays 13"
+        }
+      ]
+    },
+    {
+      "id": "a24",
+      "question": "How many copies of the confidentiality agreement are made?",
+      "answerable": true,
+      "reference_answer": "Two copies: one for the person signing and one filed with a scanned copy saved on the server.",
+      "rag_answer": "The Foundation makes two copies of the confidentiality agreement: one is given to the individual signing it, and the other is stored as a scanned copy on the server for archiving.\n\nSources:\nTemplate.pdf - Page 9",
+      "retrieved_chunks": [
+        {
+          "chunk_id": 40,
+          "page": 9,
+          "document_name": "Template.pdf",
+          "content": "Procedures:\n1. All employees, volunteers and contractors must signthe Foundation conﬁdentiality agreement duringorientation.\n2. Two copies of the conﬁdentiality agreement will bemade. A copy will go to the person signing theagreement and the second copy will be ﬁled and ascanned copy is saved on the server.\nConﬂict of Interest"
+        },
+        {
+          "chunk_id": 38,
+          "page": 8,
+          "document_name": "Template.pdf",
+          "content": "4. Contracts/Grants\nThe Foundation as a necessity will contract with professional and business corporations and details ofall such transactions will be treated with respectand discretion. Information relating to personnel,litigation and property contracts and resulting transactionswill be kept conﬁdential\n5. Meetings"
+        },
+        {
+          "chunk_id": 84,
+          "page": 16,
+          "document_name": "Template.pdf",
+          "content": "Foundation has a commitmentto protectour information assets and to respect the donors’ rights to privacy and conﬁdentiality."
+        },
+        {
+          "chunk_id": 48,
+          "page": 10,
+          "document_name": "Template.pdf",
+          "content": "Procedure:\nA conﬂict of interest on the part of an employee, volunteer or contractor of the Foundation will bedisclosed. Whenany such interest becomes a matter of Board or Committeeaction, such individuals shall declare the conﬂictandabsent themselves from the discussion. The minutesof all actions taken related to the matter will clearlyreﬂect thatthese requirements have been met.\nReporting Violations\nPolicy and Procedure Statement"
+        },
+        {
+          "chunk_id": 2,
+          "page": 2,
+          "document_name": "Template.pdf",
+          "content": "Dress Code 12\nOvertime/Lieu Time 12\nTravel and Expense Claims 13\nStatutory Holidays 13\nPersonnel Conﬁdentiality 13\nOutside Employment 14\nParticipation in Community Activities 14\nSolicitation on Foundation Property 15\nPersonal Use of Foundation Equipment 15\nAccuracy of Records 16\nTechnology Use 16\nCell Phone Use 18\nInsurance for Employee Use of own Auto 19\nContact with media 19\nPolicies and Procedures Template - Page2"
+        }
+      ]
+    },
+    {
+      "id": "a25",
+      "question": "What criteria are used for determining pay increases?",
+      "answerable": true,
+      "reference_answer": "Job and technical knowledge, problem solving and judgment, quality of work, quantity of work, teamwork and cooperation, communication, and self-management.",
+      "rag_answer": "The criteria used to determine pay increases are based on individual performance evaluations. These evaluations consider the following factors:\n\n1. **Job and Technical Knowledge**\n2. **Problem Solving and Judgment**\n3. **Quality of Work**\n4. **Quantity of Work**\n5. **Teamwork and Cooperation**\n6. **Communication**\n7. **Self-Management**\n\nPerformance reviews are conducted annually, with management determining appropriate raises after the first year of employment, taking into account annual inflation for performance-based increases.\n\nSources:\n- Template.pdf, page 36\n- Template.pdf, page 20\n- Template.pdf, page 30",
+      "retrieved_chunks": [
+        {
+          "chunk_id": 216,
+          "page": 36,
+          "document_name": "Template.pdf",
+          "content": "Pay increases may be considered after the probationary period of six months and thereafter on the one-yearanniversary date and shall be at the discretion ofmanagement in accordance with annual and local inﬂation. Payincreases for performance may be considered annuallyon the one-year anniversary date thereafter.\nDecisions with regard to rate increases are determinedusing the following criteria:\n● Job and technical knowledge\n● Problem solving and judgment\n● Quality of work\n● Quantity of work"
+        },
+        {
+          "chunk_id": 217,
+          "page": 36,
+          "document_name": "Template.pdf",
+          "content": "● Job and technical knowledge\n● Problem solving and judgment\n● Quality of work\n● Quantity of work\n● Teamwork and cooperation\n● Communication, and,\n● Self-management.\nIt is the expectation of the Foundation that wagesshall not be discussed between employees.\nPolicies and Procedures Template - Page36"
+        },
+        {
+          "chunk_id": 109,
+          "page": 20,
+          "document_name": "Template.pdf",
+          "content": "SECTION 4\nCompensation\nSalaries, Wages & Beneﬁts\nAn eﬀective compensation policy deﬁnes how the Foundationviews and manages employee pay andbeneﬁts. The policy should motivate current employeesand attract new employees. The policy in thistemplate can be used as the basis for your Foundation’scompensation policy and can be amendedaccordingly by asking the following question aftereach section: does this segment align with ourFoundation’s standards and practices."
+        },
+        {
+          "chunk_id": 111,
+          "page": 20,
+          "document_name": "Template.pdf",
+          "content": "● Provide guidelines for ongoing salary administration\n● Promote individual performance\n● Encourage innovation and creative solutions\n● Fulﬁll the organizational mission, vision and promotestrategic direction\n● Produce job satisfaction\nSalary Schedule: The salary schedule will be basedon the established salary that will be reviewed annuallyby theED/CEO.\nFull-Time & Part-Time Employees: Salary, beneﬁtsand vacation will be conﬁrmed at time of employmentandreviewed annually."
+        },
+        {
+          "chunk_id": 179,
+          "page": 30,
+          "document_name": "Template.pdf",
+          "content": "● Knowledge and skills required\n● Salary range\n● Starting/ending date where applicable\n● Hours of work\n● Closing date of competition\n● Respondent\nPolicies and Procedures Template - Page30"
+        }
+      ]
+    },
+    {
+      "id": "a26",
+      "question": "Within how many days must a drug conviction be reported to the ED/CEO?",
+      "answerable": true,
+      "reference_answer": "Within five days of any such conviction.",
+      "rag_answer": "The employee must report the drug conviction to the ED/CEO within **five days**.\n\nSources:\nTemplate.pdf - Page 27",
+      "retrieved_chunks": [
+        {
+          "chunk_id": 165,
+          "page": 27,
+          "document_name": "Template.pdf",
+          "content": "In addition, any employees of the Foundation convictedof any drug-related crime must notify the ED/CEOwithinﬁve days of any such conviction.\nPolicies and Procedures Template - Page27"
+        },
+        {
+          "chunk_id": 203,
+          "page": 34,
+          "document_name": "Template.pdf",
+          "content": "Policy and Procedure Statement\nAll employees have a six-month probationary period. A three-month evaluation of all new employees will beconducted followed by a probationary review that will be conducted at the end of the sixth month of employment.\nProcedure:\n1. The employee’s immediate supervisor will completethe probationary review and shall inform theemployee in writing, not less than two weeks priorto the end of the probationary period, the date ofthe review."
+        },
+        {
+          "chunk_id": 204,
+          "page": 34,
+          "document_name": "Template.pdf",
+          "content": "2. If the ED/CEO is the new employee, an elected representative(s) from the Board of Directors willcomplete the review and shall inform the ED/CEO inwriting, not less than two weeks prior to the endofthe probationary period, the date of the review."
+        },
+        {
+          "chunk_id": 206,
+          "page": 34,
+          "document_name": "Template.pdf",
+          "content": "4. If it is not possible to determine if the employeeis suitable for ongoing employment, the probationaryperiod may be extended for up to six months. The employeeshall be notiﬁed in writing that theprobationary period has been extended for a speciﬁctime period.\nPolicies and Procedures Template - Page34"
+        },
+        {
+          "chunk_id": 164,
+          "page": 27,
+          "document_name": "Template.pdf",
+          "content": "Use of Illegal drugs:\n● The use, sale, purchase or possession of illegal drugswhile on the job or Foundation property is strictlyprohibited.\n● Employees may not report to work under the inﬂuenceof illegal drugs.\n● Employees are required to immediately notify the ED/CEOof any suspected instance of use,possession, or knowledge of someone under the inﬂuenceof such substances on Foundationproperty."
+        }
+      ]
+    },
+    {
+      "id": "a27",
+      "question": "What vacation pay percentage do full-time employees receive in their fifth year?",
+      "answerable": true,
+      "reference_answer": "6% starting in the fifth year, up from 4% for the first four years.",
+      "rag_answer": "Full-time employees receive fifteen working days of vacation in their fifth year based on the provided policy statements. \n\nSources: Template.pdf, page 21 and 22",
+      "retrieved_chunks": [
+        {
+          "chunk_id": 125,
+          "page": 22,
+          "document_name": "Template.pdf",
+          "content": "Vacation Schedule\n● After completing one full year of service 2 weeks\n● 5 – 10 years continuous service 3 weeks (after completionof the 5th year)\n● more than 10 years of service 4 weeks (after completionof the 10th year)\nPart-time Employees –Part-time employees will accumulateone day per month in lieu of payment of 4% vacationpay. The day is equivalent to the normal number ofhours regularly worked by the employee."
+        },
+        {
+          "chunk_id": 66,
+          "page": 13,
+          "document_name": "Template.pdf",
+          "content": "Part time employees receive General Holiday Pay onlyif it is a scheduled workday and would be paid fortheaverage daily wage."
+        },
+        {
+          "chunk_id": 123,
+          "page": 22,
+          "document_name": "Template.pdf",
+          "content": "Full-time Employees – The Foundation will providevacation pay to employees. The Foundation will payvacation atfour percent for the ﬁrst 4 years inclusive and thisthen becomes 6% to full-time employees in their ﬁfthyear. Whenvacation time is taken the accrued vacation dollarswill be paid to the employee.\nIt is understood all employees are required to takea minimum two (2) weeks of vacation time each peryear. Eachemployee will take scheduled vacation time oﬀ perthe following:"
+        },
+        {
+          "chunk_id": 124,
+          "page": 22,
+          "document_name": "Template.pdf",
+          "content": "● After completing one full year of service ten workingdays\n● Five to ten years continuous service ﬁfteen workingdays\n● More than ten years of service twenty working days\nPolicy and Procedure Statement (earning vacation days)\nFull-time Employees –The Foundation pays vacationtime to full-time employees. Vacation should be takenin fullduring the employment year. Cash payments will notbe made in lieu of vacation except upon terminationofemployment.\nVacation Schedule"
+        },
+        {
+          "chunk_id": 120,
+          "page": 21,
+          "document_name": "Template.pdf",
+          "content": "After being employed for twelve months, an employeewill receive an annual vacation. After completingtwelvemonths of employment, an employee will have earnedten working days of annual vacation.. This meansthatstarting in the second year, an employee must takethe vacation earned in the year before.\nEmployees shall be required to submit a completed“Leave Form” for vacation time.\nNo vacation pay/time will be given in advance."
+        }
+      ]
+    },
+    {
+      "id": "a28",
+      "question": "How many vacation weeks does a full-time employee earn after completing ten years of service?",
+      "answerable": true,
+      "reference_answer": "Four weeks (twenty working days).",
+      "rag_answer": "A full-time employee who completes ten years of service will earn **four weeks** of vacation time. \n\nSources: Template.pdf, page 22",
+      "retrieved_chunks": [
+        {
+          "chunk_id": 125,
+          "page": 22,
+          "document_name": "Template.pdf",
+          "content": "Vacation Schedule\n● After completing one full year of service 2 weeks\n● 5 – 10 years continuous service 3 weeks (after completionof the 5th year)\n● more than 10 years of service 4 weeks (after completionof the 10th year)\nPart-time Employees –Part-time employees will accumulateone day per month in lieu of payment of 4% vacationpay. The day is equivalent to the normal number ofhours regularly worked by the employee."
+        },
+        {
+          "chunk_id": 124,
+          "page": 22,
+          "document_name": "Template.pdf",
+          "content": "● After completing one full year of service ten workingdays\n● Five to ten years continuous service ﬁfteen workingdays\n● More than ten years of service twenty working days\nPolicy and Procedure Statement (earning vacation days)\nFull-time Employees –The Foundation pays vacationtime to full-time employees. Vacation should be takenin fullduring the employment year. Cash payments will notbe made in lieu of vacation except upon terminationofemployment.\nVacation Schedule"
+        },
+        {
+          "chunk_id": 120,
+          "page": 21,
+          "document_name": "Template.pdf",
+          "content": "After being employed for twelve months, an employeewill receive an annual vacation. After completingtwelvemonths of employment, an employee will have earnedten working days of annual vacation.. This meansthatstarting in the second year, an employee must takethe vacation earned in the year before.\nEmployees shall be required to submit a completed“Leave Form” for vacation time.\nNo vacation pay/time will be given in advance."
+        },
+        {
+          "chunk_id": 126,
+          "page": 22,
+          "document_name": "Template.pdf",
+          "content": "It is understood all part-time employees are requiredto take a minimum two (2) weeks of vacation time, either paidor unpaid, during the vacation period in accordancewith the Employment Standards Act(ensure that thisclausealigns with your provincial legislation).\nIf the accumulated vacation credit is not used bythe employee’s anniversary date, then it will be paidout to theemployee.\nPolicies and Procedures Template - Page22"
+        },
+        {
+          "chunk_id": 123,
+          "page": 22,
+          "document_name": "Template.pdf",
+          "content": "Full-time Employees – The Foundation will providevacation pay to employees. The Foundation will payvacation atfour percent for the ﬁrst 4 years inclusive and thisthen becomes 6% to full-time employees in their ﬁfthyear. Whenvacation time is taken the accrued vacation dollarswill be paid to the employee.\nIt is understood all employees are required to takea minimum two (2) weeks of vacation time each peryear. Eachemployee will take scheduled vacation time oﬀ perthe following:"
+        }
+      ]
+    },
+    {
+      "id": "a29",
+      "question": "What does ED/CEO stand for in the policy document?",
+      "answerable": true,
+      "reference_answer": "Executive Director / Chief Executive Officer.",
+      "rag_answer": "ED/CEO stands for Executive Director and Chief Executive Officer.\n\nSources:\nTemplate.pdf, page: 4  \nTemplate.pdf, page: 19  \nTemplate.pdf, page: 5  \nTemplate.pdf, page: 20  \nTemplate.pdf, page: 10",
+      "retrieved_chunks": [
+        {
+          "chunk_id": 9,
+          "page": 4,
+          "document_name": "Template.pdf",
+          "content": "For some community foundations, the senior staﬀ memberis the Executive Director (ED) and for others thetitle isChief Executive Oﬃcer (CEO). For the purposes ofthis document, any reference to either of these positionswill beas ED/CEO.\nPolicies and Procedures Template - Page4"
+        },
+        {
+          "chunk_id": 108,
+          "page": 19,
+          "document_name": "Template.pdf",
+          "content": "The Chair of the Board of the Foundation is the oﬃcial spokesperson on governance and policy issues. TheED/CEO and the Chair of the Board speak on major announcements. The ED/CEO is the spokesperson onoperational issues. The ED/CEO is the media contact. Should other employees be contacted by the mediaforcomment, they are to refer the media to the ED/CEOwho will respond and/or refer appropriately.\nPolicies and Procedures Template - Page19"
+        },
+        {
+          "chunk_id": 14,
+          "page": 5,
+          "document_name": "Template.pdf",
+          "content": "File Management and Amendments to the ManualEmployees, volunteers and contractors are requestedto assist in keeping the human resource policiesup-to-dateby notifying the ED/CEO whenever problems are encounteredor improvements may be made in the administrationof said policies and procedures.\nPolicies and Procedures Template - Page5"
+        },
+        {
+          "chunk_id": 112,
+          "page": 20,
+          "document_name": "Template.pdf",
+          "content": "ED/CEO: Salary, beneﬁts and vacation will be as negotiatedthrough an employment contract and reviewedannually.\nSome Foundations provide additional beneﬁts to theiremployees, such as group insurance, RRSPs orparking. Participating in existing group medical coverageis more cost eﬀective. The local Chamber ofCommerce has such coverage. Many provinces have similargroup programs for non-proﬁtorganizations. Below are some sample clauses for beneﬁts.\nPolicies and Procedures Template - Page20"
+        },
+        {
+          "chunk_id": 49,
+          "page": 10,
+          "document_name": "Template.pdf",
+          "content": "It is each employee’s, volunteer’s and contractor’spersonal responsibility to bring violations or suspectedviolationsof the Foundation’s Code of Ethics to the attentionof the ED/CEO. The Foundation’s policy prohibitsany retributionagainst employees, volunteers or contractors who comeforward to make such reports. Whenever practical, allreports or allegations will be thoroughly investigatedby the ED/CEO prior to judgments being made or actionbeingtaken in response to suspected violations."
+        }
+      ]
+    },
+    {
+      "id": "a30",
+      "question": "What information should a job advertisement include according to the recruitment policy?",
+      "answerable": true,
+      "reference_answer": "Job Title, essential requirements for education and experience, knowledge and skills required, salary range, starting/ending date, hours of work, closing date, and respondent.",
+      "rag_answer": "The job advertisement must include the following information:\n\n- **Job Title**: Clearly state the position being advertised.\n- **Essential Requirements**: Education and experience needed for the role.\n- **Knowledge and Skills**: Specific skills required for the job.\n- **Salary Range**: Indicate the expected salary range.\n- **Starting/Ending Date**: If applicable, include the dates.\n\nSources: Template.pdf - Page 30",
+      "retrieved_chunks": [
+        {
+          "chunk_id": 178,
+          "page": 30,
+          "document_name": "Template.pdf",
+          "content": "Policy and Procedure Statement\nThe Foundation will endeavour to recruit the mostcompetent individuals to ﬁll all positions.\nProcedure:\n1. Approval to recruit for vacant or newly created positionswill be granted by the(insert appropriate levelof authority for your Foundation).\n2. Job advertisements shall include the following information:\n● Job Title\n● Essential requirements for education and experience\n● Knowledge and skills required\n● Salary range\n● Starting/ending date where applicable"
+        },
+        {
+          "chunk_id": 177,
+          "page": 30,
+          "document_name": "Template.pdf",
+          "content": "as well. This policy provides guidelinesthat will help to mitigate risk in the recruitmentprocess. The policy and procedures below outline arecommended practice. Amend to ﬁt yourFoundation’s practices."
+        },
+        {
+          "chunk_id": 168,
+          "page": 29,
+          "document_name": "Template.pdf",
+          "content": "SECTION 6\nHiring\nHiring Process"
+        },
+        {
+          "chunk_id": 174,
+          "page": 29,
+          "document_name": "Template.pdf",
+          "content": "3. The recruitment, selection and hiring process will be fair and consistent.\n4. Throughout the recruitment, selection and hiring process, applications and applicants’ information willremain conﬁdential.\nPolicies and Procedures Template - Page29"
+        },
+        {
+          "chunk_id": 175,
+          "page": 30,
+          "document_name": "Template.pdf",
+          "content": "Recruitment"
+        }
+      ]
+    },
+    {
+      "id": "b01",
+      "question": "If a new employee's probationary review is unsatisfactory, can the probationary period be extended, and for how long?",
+      "answerable": true,
+      "reference_answer": "Yes, the probationary period may be extended for up to six months if suitability cannot be determined.",
+      "rag_answer": "Based on the provided policy, if an employee's probationary review is unsatisfactory, the company may choose to extend the probationary period for up to six months. However, this decision would be at their discretion and not necessarily automatic.\n\nSources: Template.pdf, page 34",
+      "retrieved_chunks": [
+        {
+          "chunk_id": 206,
+          "page": 34,
+          "document_name": "Template.pdf",
+          "content": "4. If it is not possible to determine if the employeeis suitable for ongoing employment, the probationaryperiod may be extended for up to six months. The employeeshall be notiﬁed in writing that theprobationary period has been extended for a speciﬁctime period.\nPolicies and Procedures Template - Page34"
+        },
+        {
+          "chunk_id": 203,
+          "page": 34,
+          "document_name": "Template.pdf",
+          "content": "Policy and Procedure Statement\nAll employees have a six-month probationary period. A three-month evaluation of all new employees will beconducted followed by a probationary review that will be conducted at the end of the sixth month of employment.\nProcedure:\n1. The employee’s immediate supervisor will completethe probationary review and shall inform theemployee in writing, not less than two weeks priorto the end of the probationary period, the date ofthe review."
+        },
+        {
+          "chunk_id": 200,
+          "page": 34,
+          "document_name": "Template.pdf",
+          "content": "Probationary Review"
+        },
+        {
+          "chunk_id": 201,
+          "page": 34,
+          "document_name": "Template.pdf",
+          "content": "No matter how robust the recruitment process, it isall too easy to employ someone whounderperforms or simply doesn’t ﬁt the organization. Having a probationary period gives you theopportunity to assess suitability for a role. Youcould ﬁnd, a few weeks or months into the relationship,that the employee isn’t able to deliver the performanceor doesn’t have the skills promised at interview,has poor attendance or timekeeping or just doesn’tﬁt in terms of company culture or personality.Having a"
+        },
+        {
+          "chunk_id": 204,
+          "page": 34,
+          "document_name": "Template.pdf",
+          "content": "2. If the ED/CEO is the new employee, an elected representative(s) from the Board of Directors willcomplete the review and shall inform the ED/CEO inwriting, not less than two weeks prior to the endofthe probationary period, the date of the review."
+        }
+      ]
+    },
+    {
+      "id": "b02",
+      "question": "What are the consequences if an employee falsifies Foundation records?",
+      "answerable": true,
+      "reference_answer": "The employee may be subject to disciplinary action up to and including dismissal.",
+      "rag_answer": "If an employee falsifies Foundation records, they may face severe disciplinary actions as per the policy outlined in Template.pdf, page 16. Specifically, altering or destroying data to produce false or misleading records is strictly prohibited, with potential consequences including warnings, reprimands, suspension, or even dismissal.\n\n**Sources:**\n- Template.pdf, page 16",
+      "retrieved_chunks": [
+        {
+          "chunk_id": 81,
+          "page": 16,
+          "document_name": "Template.pdf",
+          "content": "B. Reports and evaluations must fairly represent all information relevant to the decision being requestedor recommended.\nC. Undisclosed funds or accounts may not be establishedfor any purpose.\nD. Record retention policies established by law or theFoundation must be adhered to.\nE. In the event any falsiﬁcation of Foundation recordsor transactions occurs, the employee may besubject to disciplinary action up to and includingdismissal.\nTechnology – Computer Use, Business Phones, Internetand Email"
+        },
+        {
+          "chunk_id": 80,
+          "page": 16,
+          "document_name": "Template.pdf",
+          "content": "Accuracy of Record\nThis policy is critical as it mitigates risk and limitsthe liability of the Foundation.\nPolicy and Procedure Statement\nThe Foundation’s business transactions must be properlyauthorized and be completely and accurately recordedinthe Foundation’s books and records.\nA. Altering or destroying data in an attempt to producefalse or misleading records or reports is strictlyprohibited."
+        },
+        {
+          "chunk_id": 165,
+          "page": 27,
+          "document_name": "Template.pdf",
+          "content": "In addition, any employees of the Foundation convictedof any drug-related crime must notify the ED/CEOwithinﬁve days of any such conviction.\nPolicies and Procedures Template - Page27"
+        },
+        {
+          "chunk_id": 49,
+          "page": 10,
+          "document_name": "Template.pdf",
+          "content": "It is each employee’s, volunteer’s and contractor’spersonal responsibility to bring violations or suspectedviolationsof the Foundation’s Code of Ethics to the attentionof the ED/CEO. The Foundation’s policy prohibitsany retributionagainst employees, volunteers or contractors who comeforward to make such reports. Whenever practical, allreports or allegations will be thoroughly investigatedby the ED/CEO prior to judgments being made or actionbeingtaken in response to suspected violations."
+        },
+        {
+          "chunk_id": 234,
+          "page": 39,
+          "document_name": "Template.pdf",
+          "content": "The Foundation has a legal obligation to ensure the safety and well-being of all employees, volunteers andcontractors therefore, depending on the nature andgravity of an incident, the Foundation reserves theright toconduct an investigation regardless of whether ornot a formal complaint has been ﬁled."
+        }
+      ]
+    },
+    {
+      "id": "b03",
+      "question": "How does the policy handle both donor confidentiality and employee use of Foundation information for personal gain?",
+      "answerable": true,
+      "reference_answer": "Donor anonymity and confidentiality requests are strictly respected; donor lists are not shared. Separately, any information received through the Foundation will not be used for personal gain.",
+      "rag_answer": "The policy ensures donor confidentiality by treating all sensitive information with discretion, respecting donors' privacy, and requiring that Foundation resources not be used for personal financial gain. Employees are restricted from using Foundation resources for personal use unless they obtain approval from the ED/CEO, it is portable, non-consumable, or has a negligible cost to the Foundation.\n\nSources: Template.pdf - Page 8 (Donors section), Page 9 (Grant Recipients section), Page 15 (Contracts/Grants section).",
+      "retrieved_chunks": [
+        {
+          "chunk_id": 35,
+          "page": 8,
+          "document_name": "Template.pdf",
+          "content": "Policy and Procedure Statement\n1. General\nEmployees, volunteers, and contractors of the Foundationwill treat information provided or gatheredby the Foundation with discretion. Any informationreceived through involvement with the Foundationwill not be used for personal gain.\n2. Donors"
+        },
+        {
+          "chunk_id": 84,
+          "page": 16,
+          "document_name": "Template.pdf",
+          "content": "Foundation has a commitmentto protectour information assets and to respect the donors’ rights to privacy and conﬁdentiality."
+        },
+        {
+          "chunk_id": 44,
+          "page": 9,
+          "document_name": "Template.pdf",
+          "content": "The Foundation recognizes that employees will be associatedwith organizations that, from time to time, may applyfor funding. This policy is directed towards the sourcesof most potential conﬂict which include conﬂictsarising as aresult of aﬃliation with:\n● an organization or individual which has, or is negotiating, a business relationship with Foundation,\n● an organization seeking funding or other support fromthe Foundation.\nDeﬁnitions:"
+        },
+        {
+          "chunk_id": 37,
+          "page": 8,
+          "document_name": "Template.pdf",
+          "content": "3. Grant Recipients\nThe Foundation grant making process requires charitiesand agencies to provide detailed project andorganizational information. This information will often be of a sensitive nature, and will thereforebetreated in conﬁdence by employees.\n4. Contracts/Grants"
+        },
+        {
+          "chunk_id": 78,
+          "page": 15,
+          "document_name": "Template.pdf",
+          "content": "Policy and Procedure Statement\nThe Foundation’s resources should be used for thebeneﬁt of the Foundation and not for personal ﬁnancial gain.Employees will be allowed personal use of Foundationequipment only when:\nA. Advance approval by ED/CEO is obtained.\nB. The item is portable.\nC. The item is non-consumable.\nD. The cost to the Foundation is negligible.\nUse of Foundation resources for community or charitableactivities must be approved in advance by the ED/CEO."
+        }
+      ]
+    },
+    {
+      "id": "b04",
+      "question": "What protections exist for an employee who reports a violation of the Code of Ethics?",
+      "answerable": true,
+      "reference_answer": "The Foundation's policy prohibits any retribution against employees, volunteers or contractors who report violations.",
+      "rag_answer": "If an employee reports a violation of the Code of Ethics, they are protected from retaliation under the Foundation’s policy. The ED/CEO will investigate such reports thoroughly before any actions are taken. \n\nSources: Template.pdf, page 10",
+      "retrieved_chunks": [
+        {
+          "chunk_id": 20,
+          "page": 6,
+          "document_name": "Template.pdf",
+          "content": "A code of ethics is important for organizations toestablish and ensure that everyone in theorganization is clear on the mission, values and guidingprinciples. The code provides employees,volunteers and contractors with a framework of whichrules exist, from a regulatory andlaw-enforcement standpoint and how to act in the greyareas of values-based ethics that aren’t alwaysclear. The policy below provides a framework fromwhich with your foundation can base your policy.Amend to align with your"
+        },
+        {
+          "chunk_id": 25,
+          "page": 7,
+          "document_name": "Template.pdf",
+          "content": "CODE OF ETHICS:\nThe Board of Directors promotes the highest standards of ethical behaviour. The Code of Ethics which relatesspeciﬁcally to Foundation employees includes:\n1. Integrity: Foundation members shall act with competence, honesty, integrity, respect and fairnesswhile carrying out their obligations for the Foundation."
+        },
+        {
+          "chunk_id": 49,
+          "page": 10,
+          "document_name": "Template.pdf",
+          "content": "It is each employee’s, volunteer’s and contractor’spersonal responsibility to bring violations or suspectedviolationsof the Foundation’s Code of Ethics to the attentionof the ED/CEO. The Foundation’s policy prohibitsany retributionagainst employees, volunteers or contractors who comeforward to make such reports. Whenever practical, allreports or allegations will be thoroughly investigatedby the ED/CEO prior to judgments being made or actionbeingtaken in response to suspected violations."
+        },
+        {
+          "chunk_id": 228,
+          "page": 38,
+          "document_name": "Template.pdf",
+          "content": "All employers are responsible for providing a workplacefree from harassment.  Employers areobligated to take appropriate action against any employee, volunteer or contractor who harassessomeone.  Otherwise, an employer can be held responsiblefor harassment committed by them.Adopting a harassment policy can foster an environmentof respect for human rights and helps peoplein the organization understand their rights and responsibilities. Policies can protect an organizationfrom discrimination"
+        },
+        {
+          "chunk_id": 244,
+          "page": 40,
+          "document_name": "Template.pdf",
+          "content": "Procedure:\nWhere, in the opinion of the employee, volunteer orcontractor unfair treatment has been rendered ora problemarises, the following procedure shall be followed.\n1. If possible, immediately tell the person whom youfeel is harassing you that their conduct or behaviouris unwelcome and that you wish it to be stopped."
+        }
+      ]
+    },
+    {
+      "id": "b05",
+      "question": "What conditions must be met for an employee to use Foundation equipment for personal purposes?",
+      "answerable": true,
+      "reference_answer": "Advance approval from ED/CEO, the item must be portable, non-consumable, and the cost to the Foundation must be negligible.",
+      "rag_answer": "To use Foundation equipment for personal purposes, an employee must meet the following conditions:\n\n1. **Advance Approval**: Obtain prior approval from the ED/CEO.\n2. **Portability**: The equipment must be portable.\n3. **Non-Consumable**: The item should not be consumed or depleted.\n4. **Cost Consideration**: The cost to the Foundation is negligible.\n\nSources: Template.pdf, page 15",
+      "retrieved_chunks": [
+        {
+          "chunk_id": 77,
+          "page": 15,
+          "document_name": "Template.pdf",
+          "content": "B. Collection of gifts for fellow employees and Foundationsupported solicitations, for sale of merchandiseraﬄe tickets, club memberships or organizationsis permitted provided the time does not interferesigniﬁcantly with the productivity of employees andthe activity has been approved by the ED/CEO.\nPersonal Use of Foundation Equipment\nDoes your Foundation permit employees, under certaincircumstances, to use Foundation equipmentfor personal use? If so, refer to the below policy."
+        },
+        {
+          "chunk_id": 78,
+          "page": 15,
+          "document_name": "Template.pdf",
+          "content": "Policy and Procedure Statement\nThe Foundation’s resources should be used for thebeneﬁt of the Foundation and not for personal ﬁnancial gain.Employees will be allowed personal use of Foundationequipment only when:\nA. Advance approval by ED/CEO is obtained.\nB. The item is portable.\nC. The item is non-consumable.\nD. The cost to the Foundation is negligible.\nUse of Foundation resources for community or charitableactivities must be approved in advance by the ED/CEO."
+        },
+        {
+          "chunk_id": 71,
+          "page": 14,
+          "document_name": "Template.pdf",
+          "content": "Foundations should read through the below policy statement and adapt it to ﬁt their current practices.If a Foundation has never considered this type ofpolicy, the following questions help with framing: Arewe willing to let staﬀ use Foundation equipment foroutside activities? Are we able to limit ouremployees working at other organizations, and if so, are there any limitations that we could legallyimpose? What is our position in staﬀ soliciting donorsand volunteers for outside employment?"
+        },
+        {
+          "chunk_id": 162,
+          "page": 27,
+          "document_name": "Template.pdf",
+          "content": "Policy and Procedure Statement\nAll Foundation employees are required to:\nA. Come to work ﬁt for duty\nB. Take reasonable care to protect the health and safetyof themselves and others at all times\nC. Refrain from being impaired by alcohol, marijuanaand any other drugs while on duty\nD. Notify their supervisor if they suspect that a co-workeris unﬁt for duty"
+        },
+        {
+          "chunk_id": 142,
+          "page": 24,
+          "document_name": "Template.pdf",
+          "content": "employee absencedue to illness. The following policy can form thebasis of one developed for your Foundation."
+        }
+      ]
+    },
+    {
+      "id": "b06",
+      "question": "How does the Foundation handle situations where a supervisor is the one causing harassment?",
+      "answerable": true,
+      "reference_answer": "If the supervisor is the cause, the situation should be discussed with the ED/CEO. If the ED/CEO is the cause, it should be discussed with the Board Chair.",
+      "rag_answer": "The Foundation handles situations where a supervisor causes harassment by taking appropriate measures under its Anti-Harassment Policy. This includes investigating and resolving such incidents swiftly. The process likely involves internal reporting mechanisms or external referrals, ensuring prompt action against the harasser.\n\nSources:\nTemplate.pdf - Page 7\nTemplate.pdf - Page 39",
+      "retrieved_chunks": [
+        {
+          "chunk_id": 237,
+          "page": 39,
+          "document_name": "Template.pdf",
+          "content": "The Foundation recognizes that employees, volunteersand contractors may also be subject to harassmentanddiscrimination from others who conduct business withthe Foundation. In these circumstances, because thispolicyis intended to apply in all cases of harassment anddiscrimination, the Foundation will assist and supportthe personaﬀected by the harassment or discrimination."
+        },
+        {
+          "chunk_id": 31,
+          "page": 7,
+          "document_name": "Template.pdf",
+          "content": "The Foundation has developed a morecomprehensive policy addressing the details surroundingthis issue. Please refer to the Anti-Harassment Policyfurther on in this document."
+        },
+        {
+          "chunk_id": 30,
+          "page": 7,
+          "document_name": "Template.pdf",
+          "content": "The Foundation is committed to providing a work environmentthat is free of harassment and supportive of thedignity, self-esteem and productivity of every employee. The Foundation will not tolerate any form of harassmentof,or by, employees, stakeholders, volunteers, students, contractors, suppliers or other individuals associatedwith theFoundation while engaged in activities pertainingto the workplace. The Foundation has developed a morecomprehensive policy addressing the details surroundingthis"
+        },
+        {
+          "chunk_id": 236,
+          "page": 39,
+          "document_name": "Template.pdf",
+          "content": "Harassment and Discrimination Prevention\nThe Foundation is committed to providing every employee, volunteer or contractor with a workplace free fromharassment and discrimination, whether prohibitedby human rights legislation or otherwise. The Foundationwillnot tolerate incidents of harassment or discriminationbrought to its attention and will act swiftly toinvestigate andresolve all such manners."
+        },
+        {
+          "chunk_id": 238,
+          "page": 39,
+          "document_name": "Template.pdf",
+          "content": "The Foundation also recognizes that prohibited harassmentand discrimination can occur at places other thanthephysical workplace. Employees, volunteers and contractorshave the right to be free from harassment anddiscrimination in all locations where work is conductedon behalf of the Foundation, or where the individual ispresent at the location only by virtue of their workwith the Foundation.\nDeﬁnitions:"
+        }
+      ]
+    },
+    {
+      "id": "b07",
+      "question": "What happens to a progressive discipline record after 24 months with no recurrence?",
+      "answerable": true,
+      "reference_answer": "A second written warning or suspension may be purged from the employee's file if there is no recurrence over the next 24 months.",
+      "rag_answer": "I don't know based on the provided documents.\n\nSources: Template.pdf, page: 37",
+      "retrieved_chunks": [
+        {
+          "chunk_id": 221,
+          "page": 37,
+          "document_name": "Template.pdf",
+          "content": "A progressive discipline policy provides many beneﬁtsto employers and employees.  Along with otherbeneﬁts, the policy provides structure and predictabilityto the discipline process, sets a basic set ofdiscipline standards for supervisors to follow, helpssupervisors document disciplinary actions and canbe instrumental in defeating discrimination, unemployment, and other work-related claims."
+        },
+        {
+          "chunk_id": 206,
+          "page": 34,
+          "document_name": "Template.pdf",
+          "content": "4. If it is not possible to determine if the employeeis suitable for ongoing employment, the probationaryperiod may be extended for up to six months. The employeeshall be notiﬁed in writing that theprobationary period has been extended for a speciﬁctime period.\nPolicies and Procedures Template - Page34"
+        },
+        {
+          "chunk_id": 224,
+          "page": 37,
+          "document_name": "Template.pdf",
+          "content": "Deﬁnitions:\nProgressive discipline:\n● Emphasizes correction and establishes clear goalsto help employees change from unsatisfactoryperformance to satisfactory performance.\n● Focuses on the performance rather than the person.\nPolicies and Procedures Template - Page37"
+        },
+        {
+          "chunk_id": 218,
+          "page": 37,
+          "document_name": "Template.pdf",
+          "content": "SECTION 7\nProblem Resolution\nProgressive Discipline"
+        },
+        {
+          "chunk_id": 202,
+          "page": 34,
+          "document_name": "Template.pdf",
+          "content": "attendance or timekeeping or just doesn’tﬁt in terms of company culture or personality.Having a probationary period is also a risk mitigant. The policy and procedure below is one example ofa program. Amend to ﬁt your Foundations’s practices."
+        }
+      ]
+    },
+    {
+      "id": "b08",
+      "question": "What are the rules about outside employment and its relationship to Foundation duties?",
+      "answerable": true,
+      "reference_answer": "Outside employment must be kept separate from Foundation responsibilities, must not use Foundation resources, must not create a conflict of interest, should not embarrass the Foundation, and soliciting Foundation donors for outside work is prohibited.",
+      "rag_answer": "The rules about outside employment for employees of the Foundation are designed to maintain professionalism and avoid conflicts of interest. Here's a summary:\n\n1. **Privacy and Responsibility**: Employees can engage in outside employment but must ensure it doesn't compromise their ability to perform their Foundation duties effectively.\n\n2. **Compliance**: Outside activities must comply with legal requirements and not harm the Foundation's reputation or image.\n\n3. **Prohibition on Solicitation**: Employees are strictly prohibited from soliciting donors, volunteers, or others for outside employment.\n\n4. **Separation of Duties**: All outside work must be conducted separately from Foundation responsibilities to prevent conflicts.\n\n5. **Conflict of Interest**: Employees should discuss any potential conflicts with the appropriate authority (ED/CEO) before engaging in such activities.\n\nThese guidelines ensure that the Foundation's interests are protected while allowing employees to contribute elsewhere without jeopardizing their role at the Foundation.",
+      "retrieved_chunks": [
+        {
+          "chunk_id": 72,
+          "page": 14,
+          "document_name": "Template.pdf",
+          "content": "Policy and Procedure Statement\nThe Foundation recognizes the right of its employeesto privacy and to make use of personal time outsideofworking hours as they see ﬁt. However, outside employmentopportunities should be carefully considered toensure the employee’s ability to perform their responsibilitiesat the Foundation are not adversely aﬀected.Employees may engage in outside employment that complieswith the following:"
+        },
+        {
+          "chunk_id": 71,
+          "page": 14,
+          "document_name": "Template.pdf",
+          "content": "Foundations should read through the below policy statement and adapt it to ﬁt their current practices.If a Foundation has never considered this type ofpolicy, the following questions help with framing: Arewe willing to let staﬀ use Foundation equipment foroutside activities? Are we able to limit ouremployees working at other organizations, and if so, are there any limitations that we could legallyimpose? What is our position in staﬀ soliciting donorsand volunteers for outside employment?"
+        },
+        {
+          "chunk_id": 38,
+          "page": 8,
+          "document_name": "Template.pdf",
+          "content": "4. Contracts/Grants\nThe Foundation as a necessity will contract with professional and business corporations and details ofall such transactions will be treated with respectand discretion. Information relating to personnel,litigation and property contracts and resulting transactionswill be kept conﬁdential\n5. Meetings"
+        },
+        {
+          "chunk_id": 74,
+          "page": 14,
+          "document_name": "Template.pdf",
+          "content": "D. The outside employment should not embarrass or discreditthe Foundation.\nE. Soliciting Foundation donors and volunteers for outsideemployment is strictly prohibited.\nParticipation in Community Activities\nDoes your Foundation encourage employees to participatein community activities? If so, refer to thebelow policy. If not, this policy is not necessary.\nPolicy and Procedure Statement"
+        },
+        {
+          "chunk_id": 73,
+          "page": 14,
+          "document_name": "Template.pdf",
+          "content": "A. All outside employment and associated activities mustbe kept separate from the employee’sFoundation responsibilities.\nB. Employees are prohibited from using time, tools, equipment, materials, personnel or informationobtained through the Foundation for outside activities.\nC. Where the possibility of a conﬂict of interest exists, an employee should discuss these activities withthe ED/CEO prior to engaging in such activities."
+        }
+      ]
+    },
+    {
+      "id": "u01",
+      "question": "What is the Foundation's remote work or work-from-home policy?",
+      "answerable": false,
+      "reference_answer": "",
+      "rag_answer": "The provided context does not contain specific information about the Foundation's remote work or work-from-home policy. The sources primarily address other policies such as device usage, anti-harassment, and outside employment opportunities but do not mention anything related to remote work arrangements.\n\nSources:\nTemplate.pdf - Page: 14\nTemplate.pdf - Page: 18",
+      "retrieved_chunks": [
+        {
+          "chunk_id": 71,
+          "page": 14,
+          "document_name": "Template.pdf",
+          "content": "Foundations should read through the below policy statement and adapt it to ﬁt their current practices.If a Foundation has never considered this type ofpolicy, the following questions help with framing: Arewe willing to let staﬀ use Foundation equipment foroutside activities? Are we able to limit ouremployees working at other organizations, and if so, are there any limitations that we could legallyimpose? What is our position in staﬀ soliciting donorsand volunteers for outside employment?"
+        },
+        {
+          "chunk_id": 94,
+          "page": 18,
+          "document_name": "Template.pdf",
+          "content": "This policy applies to all Foundation personnel andapplies to any device that makes or receives phonecalls,leaves messages, sends text messages, surfs the Internet, or downloads and allows for the reading of andresponding to email whether the device is Foundation-suppliedor personally owned."
+        },
+        {
+          "chunk_id": 72,
+          "page": 14,
+          "document_name": "Template.pdf",
+          "content": "Policy and Procedure Statement\nThe Foundation recognizes the right of its employeesto privacy and to make use of personal time outsideofworking hours as they see ﬁt. However, outside employmentopportunities should be carefully considered toensure the employee’s ability to perform their responsibilitiesat the Foundation are not adversely aﬀected.Employees may engage in outside employment that complieswith the following:"
+        },
+        {
+          "chunk_id": 30,
+          "page": 7,
+          "document_name": "Template.pdf",
+          "content": "The Foundation is committed to providing a work environmentthat is free of harassment and supportive of thedignity, self-esteem and productivity of every employee. The Foundation will not tolerate any form of harassmentof,or by, employees, stakeholders, volunteers, students, contractors, suppliers or other individuals associatedwith theFoundation while engaged in activities pertainingto the workplace. The Foundation has developed a morecomprehensive policy addressing the details surroundingthis"
+        },
+        {
+          "chunk_id": 21,
+          "page": 6,
+          "document_name": "Template.pdf",
+          "content": "provides a framework fromwhich with your foundation can base your policy.Amend to align with your foundation’s practices."
+        }
+      ]
+    },
+    {
+      "id": "u02",
+      "question": "Does the Foundation offer stock options or equity compensation?",
+      "answerable": false,
+      "reference_answer": "",
+      "rag_answer": "I don't know based on the provided documents.",
+      "retrieved_chunks": [
+        {
+          "chunk_id": 110,
+          "page": 20,
+          "document_name": "Template.pdf",
+          "content": "The Foundation is committed to a policy of salaryadministration which is internally and externallycompetitive andequitable and also recognizes and encourages individual performance. The purpose of the policy is to:\n● Ensure the fair and equitable salary treatment ofthe Foundation employees\n● Set salary levels which will enable the Foundationto recruit and retain qualiﬁed employees\n● Provide guidelines for ongoing salary administration\n● Promote individual performance"
+        },
+        {
+          "chunk_id": 44,
+          "page": 9,
+          "document_name": "Template.pdf",
+          "content": "The Foundation recognizes that employees will be associatedwith organizations that, from time to time, may applyfor funding. This policy is directed towards the sourcesof most potential conﬂict which include conﬂictsarising as aresult of aﬃliation with:\n● an organization or individual which has, or is negotiating, a business relationship with Foundation,\n● an organization seeking funding or other support fromthe Foundation.\nDeﬁnitions:"
+        },
+        {
+          "chunk_id": 38,
+          "page": 8,
+          "document_name": "Template.pdf",
+          "content": "4. Contracts/Grants\nThe Foundation as a necessity will contract with professional and business corporations and details ofall such transactions will be treated with respectand discretion. Information relating to personnel,litigation and property contracts and resulting transactionswill be kept conﬁdential\n5. Meetings"
+        },
+        {
+          "chunk_id": 84,
+          "page": 16,
+          "document_name": "Template.pdf",
+          "content": "Foundation has a commitmentto protectour information assets and to respect the donors’ rights to privacy and conﬁdentiality."
+        },
+        {
+          "chunk_id": 102,
+          "page": 19,
+          "document_name": "Template.pdf",
+          "content": "Most foundations are not in a position to own or leasevehicles, which means employees are usingtheir own vehicles for foundation business. The purposeof this policy is to outline the employee’s andthe Foundation’s insurance coverage when an employeeuses their own vehicle for Foundationbusiness. In this instance the Foundation’s insurancecoverage must include non-owned auto. Thepolicy also applies to volunteers using their automobileon Foundation business. The Foundation’snon-owned auto coverage"
+        }
+      ]
+    },
+    {
+      "id": "u03",
+      "question": "What is the Foundation's policy on sabbatical leave?",
+      "answerable": false,
+      "reference_answer": "",
+      "rag_answer": "Based on the provided context, there is no explicit information about the Foundation's policy on sabbatical leave. The document primarily discusses vacation policies and does not mention sabbaticals specifically.\n\nSources:\nTemplate.pdf - Page 24",
+      "retrieved_chunks": [
+        {
+          "chunk_id": 133,
+          "page": 23,
+          "document_name": "Template.pdf",
+          "content": "Policy and Procedure Statement\nIt is the policy of the Foundation to comply withthe Employment Standards Code, and the Foundationreserves theright to change its policy without notice if thereis a change in such law. Due to the complexitiesof family andmedical leaves, it is important to contact the ED/CEOregarding speciﬁc leave requirement requests.\nRequests for leave are accepted for the followingperiods of unpaid leave:"
+        },
+        {
+          "chunk_id": 122,
+          "page": 22,
+          "document_name": "Template.pdf",
+          "content": "Although every eﬀort is made by the Foundation to satisfy an employee’s choice of vacation time, legislationconﬁrms the Foundation is able to request an employeeto take time vacation when the Foundation so chooses."
+        },
+        {
+          "chunk_id": 124,
+          "page": 22,
+          "document_name": "Template.pdf",
+          "content": "● After completing one full year of service ten workingdays\n● Five to ten years continuous service ﬁfteen workingdays\n● More than ten years of service twenty working days\nPolicy and Procedure Statement (earning vacation days)\nFull-time Employees –The Foundation pays vacationtime to full-time employees. Vacation should be takenin fullduring the employment year. Cash payments will notbe made in lieu of vacation except upon terminationofemployment.\nVacation Schedule"
+        },
+        {
+          "chunk_id": 142,
+          "page": 24,
+          "document_name": "Template.pdf",
+          "content": "employee absencedue to illness. The following policy can form thebasis of one developed for your Foundation."
+        },
+        {
+          "chunk_id": 136,
+          "page": 24,
+          "document_name": "Template.pdf",
+          "content": "requested on this basis, the Foundation may require the employee to temporarily transfer to an alternative positionwith equivalent pay and beneﬁts which better accommodatethe intermittent or leave schedule."
+        }
+      ]
+    },
+    {
+      "id": "u04",
+      "question": "How many employees currently work at the Foundation?",
+      "answerable": false,
+      "reference_answer": "",
+      "rag_answer": "I don't know based on the provided documents.",
+      "retrieved_chunks": [
+        {
+          "chunk_id": 53,
+          "page": 11,
+          "document_name": "Template.pdf",
+          "content": "If an employee is required to leave the Foundationduring normal working hours, he/she is required tonotifyco-workers, as well as the ED/CEO\nAll employees at the Foundation will be paid on aweekly/biweekly/monthlybasis with the opportunityof amid-month advance.\nEmployees shall be required to submit a completed“Timesheet” in the attached form to the Chief ExecutiveOﬃcerby the 26th of each month(adjust to ﬁt your Foundation’spractices and pay periods)."
+        },
+        {
+          "chunk_id": 44,
+          "page": 9,
+          "document_name": "Template.pdf",
+          "content": "The Foundation recognizes that employees will be associatedwith organizations that, from time to time, may applyfor funding. This policy is directed towards the sourcesof most potential conﬂict which include conﬂictsarising as aresult of aﬃliation with:\n● an organization or individual which has, or is negotiating, a business relationship with Foundation,\n● an organization seeking funding or other support fromthe Foundation.\nDeﬁnitions:"
+        },
+        {
+          "chunk_id": 110,
+          "page": 20,
+          "document_name": "Template.pdf",
+          "content": "The Foundation is committed to a policy of salaryadministration which is internally and externallycompetitive andequitable and also recognizes and encourages individual performance. The purpose of the policy is to:\n● Ensure the fair and equitable salary treatment ofthe Foundation employees\n● Set salary levels which will enable the Foundationto recruit and retain qualiﬁed employees\n● Provide guidelines for ongoing salary administration\n● Promote individual performance"
+        },
+        {
+          "chunk_id": 30,
+          "page": 7,
+          "document_name": "Template.pdf",
+          "content": "The Foundation is committed to providing a work environmentthat is free of harassment and supportive of thedignity, self-esteem and productivity of every employee. The Foundation will not tolerate any form of harassmentof,or by, employees, stakeholders, volunteers, students, contractors, suppliers or other individuals associatedwith theFoundation while engaged in activities pertainingto the workplace. The Foundation has developed a morecomprehensive policy addressing the details surroundingthis"
+        },
+        {
+          "chunk_id": 172,
+          "page": 29,
+          "document_name": "Template.pdf",
+          "content": "The Foundation will follow consistent hiring guidelinesin order to maximize the chances for success in fulﬁllingitsmission by hiring the most qualiﬁed and competentapplicants for all employment vacancies. The Foundationadheres to PIPEDA rules relating to employee information.\nProcedures:\n1. To be eligible for employment with Foundation, applicantsmust:\n● meet the stated requirements for the position beingsought,"
+        }
+      ]
+    },
+    {
+      "id": "u05",
+      "question": "What is the Foundation's annual revenue or budget?",
+      "answerable": false,
+      "reference_answer": "",
+      "rag_answer": "Sources: Template.pdf, page 20; Page 13; Policy and Procedure Statement, page 23; Page 9; Definitions, pages 22-23.\n\nThe Foundation's annual revenue or budget is not mentioned in the provided documents.",
+      "retrieved_chunks": [
+        {
+          "chunk_id": 110,
+          "page": 20,
+          "document_name": "Template.pdf",
+          "content": "The Foundation is committed to a policy of salaryadministration which is internally and externallycompetitive andequitable and also recognizes and encourages individual performance. The purpose of the policy is to:\n● Ensure the fair and equitable salary treatment ofthe Foundation employees\n● Set salary levels which will enable the Foundationto recruit and retain qualiﬁed employees\n● Provide guidelines for ongoing salary administration\n● Promote individual performance"
+        },
+        {
+          "chunk_id": 63,
+          "page": 13,
+          "document_name": "Template.pdf",
+          "content": "Employees will be reimbursed for expenses incurredin the fulﬁllment of Foundation responsibilities, uponsubmission of appropriate receipts to the ED/CEO forapproval within 30 days of the incurred expense. Whenemployees travel out of town to attend overnight Foundationrelated activities, such expenses include but arenotlimited to mileage and/or transportation costs, mealsand overnight accommodation. The Foundation will not coverthe cost of alcoholic beverages. Remuneration foruse of personal"
+        },
+        {
+          "chunk_id": 130,
+          "page": 23,
+          "document_name": "Template.pdf",
+          "content": "Policy and Procedure Statement\nThe Foundation values professional development forits employees and will budget annually for such opportunities."
+        },
+        {
+          "chunk_id": 44,
+          "page": 9,
+          "document_name": "Template.pdf",
+          "content": "The Foundation recognizes that employees will be associatedwith organizations that, from time to time, may applyfor funding. This policy is directed towards the sourcesof most potential conﬂict which include conﬂictsarising as aresult of aﬃliation with:\n● an organization or individual which has, or is negotiating, a business relationship with Foundation,\n● an organization seeking funding or other support fromthe Foundation.\nDeﬁnitions:"
+        },
+        {
+          "chunk_id": 123,
+          "page": 22,
+          "document_name": "Template.pdf",
+          "content": "Full-time Employees – The Foundation will providevacation pay to employees. The Foundation will payvacation atfour percent for the ﬁrst 4 years inclusive and thisthen becomes 6% to full-time employees in their ﬁfthyear. Whenvacation time is taken the accrued vacation dollarswill be paid to the employee.\nIt is understood all employees are required to takea minimum two (2) weeks of vacation time each peryear. Eachemployee will take scheduled vacation time oﬀ perthe following:"
+        }
+      ]
+    },
+    {
+      "id": "u06",
+      "question": "Does the Foundation provide pet-friendly workplace accommodations?",
+      "answerable": false,
+      "reference_answer": "",
+      "rag_answer": "Based on the provided context from Template.pdf, there is no information indicating whether the Foundation offers pet-friendly workplace accommodations. The documents focus on anti-harassment policies and workplace culture but do not address pet-related accommodations.\n\nSources: Template.pdf - Page 7, 12, 39",
+      "retrieved_chunks": [
+        {
+          "chunk_id": 30,
+          "page": 7,
+          "document_name": "Template.pdf",
+          "content": "The Foundation is committed to providing a work environmentthat is free of harassment and supportive of thedignity, self-esteem and productivity of every employee. The Foundation will not tolerate any form of harassmentof,or by, employees, stakeholders, volunteers, students, contractors, suppliers or other individuals associatedwith theFoundation while engaged in activities pertainingto the workplace. The Foundation has developed a morecomprehensive policy addressing the details surroundingthis"
+        },
+        {
+          "chunk_id": 56,
+          "page": 12,
+          "document_name": "Template.pdf",
+          "content": "The Foundation has chosen to oﬀer a casual dressenvironment for employees. Employees are expectedto usegood judgment and to show courtesy to their co-workersby dressing in a manner that is presentable andappropriate. At all times employees are asked to becognizant that regardless of their interaction withclients,customers, suppliers, contractors, or volunteers, the Foundation is still a place of business."
+        },
+        {
+          "chunk_id": 238,
+          "page": 39,
+          "document_name": "Template.pdf",
+          "content": "The Foundation also recognizes that prohibited harassmentand discrimination can occur at places other thanthephysical workplace. Employees, volunteers and contractorshave the right to be free from harassment anddiscrimination in all locations where work is conductedon behalf of the Foundation, or where the individual ispresent at the location only by virtue of their workwith the Foundation.\nDeﬁnitions:"
+        },
+        {
+          "chunk_id": 236,
+          "page": 39,
+          "document_name": "Template.pdf",
+          "content": "Harassment and Discrimination Prevention\nThe Foundation is committed to providing every employee, volunteer or contractor with a workplace free fromharassment and discrimination, whether prohibitedby human rights legislation or otherwise. The Foundationwillnot tolerate incidents of harassment or discriminationbrought to its attention and will act swiftly toinvestigate andresolve all such manners."
+        },
+        {
+          "chunk_id": 237,
+          "page": 39,
+          "document_name": "Template.pdf",
+          "content": "The Foundation recognizes that employees, volunteersand contractors may also be subject to harassmentanddiscrimination from others who conduct business withthe Foundation. In these circumstances, because thispolicyis intended to apply in all cases of harassment anddiscrimination, the Foundation will assist and supportthe personaﬀected by the harassment or discrimination."
+        }
+      ]
+    },
+    {
+      "id": "u07",
+      "question": "What is the Foundation's policy on employee bonuses?",
+      "answerable": false,
+      "reference_answer": "",
+      "rag_answer": "Based on the provided context from the Foundation's policy documents, there is no explicit information available regarding the company's policy on employee bonuses. The available sections focus on salary administration, compensation guidelines, and compliance policies but do not detail bonus structures or related procedures.\n\nSources:\n- Template.pdf, page: 9\n- Template.pdf, page: 17\n- Template.pdf, pages: 20-22",
+      "retrieved_chunks": [
+        {
+          "chunk_id": 110,
+          "page": 20,
+          "document_name": "Template.pdf",
+          "content": "The Foundation is committed to a policy of salaryadministration which is internally and externallycompetitive andequitable and also recognizes and encourages individual performance. The purpose of the policy is to:\n● Ensure the fair and equitable salary treatment ofthe Foundation employees\n● Set salary levels which will enable the Foundationto recruit and retain qualiﬁed employees\n● Provide guidelines for ongoing salary administration\n● Promote individual performance"
+        },
+        {
+          "chunk_id": 109,
+          "page": 20,
+          "document_name": "Template.pdf",
+          "content": "SECTION 4\nCompensation\nSalaries, Wages & Beneﬁts\nAn eﬀective compensation policy deﬁnes how the Foundationviews and manages employee pay andbeneﬁts. The policy should motivate current employeesand attract new employees. The policy in thistemplate can be used as the basis for your Foundation’scompensation policy and can be amendedaccordingly by asking the following question aftereach section: does this segment align with ourFoundation’s standards and practices."
+        },
+        {
+          "chunk_id": 44,
+          "page": 9,
+          "document_name": "Template.pdf",
+          "content": "The Foundation recognizes that employees will be associatedwith organizations that, from time to time, may applyfor funding. This policy is directed towards the sourcesof most potential conﬂict which include conﬂictsarising as aresult of aﬃliation with:\n● an organization or individual which has, or is negotiating, a business relationship with Foundation,\n● an organization seeking funding or other support fromthe Foundation.\nDeﬁnitions:"
+        },
+        {
+          "chunk_id": 123,
+          "page": 22,
+          "document_name": "Template.pdf",
+          "content": "Full-time Employees – The Foundation will providevacation pay to employees. The Foundation will payvacation atfour percent for the ﬁrst 4 years inclusive and thisthen becomes 6% to full-time employees in their ﬁfthyear. Whenvacation time is taken the accrued vacation dollarswill be paid to the employee.\nIt is understood all employees are required to takea minimum two (2) weeks of vacation time each peryear. Eachemployee will take scheduled vacation time oﬀ perthe following:"
+        },
+        {
+          "chunk_id": 90,
+          "page": 17,
+          "document_name": "Template.pdf",
+          "content": "K. Employees will sign a consent form indicating theirunderstanding of the Foundation’s policy. Theymust understand that violation of the policy may resultin disciplinary action up to and includingdismissal.\nPolicies and Procedures Template - Page17"
+        }
+      ]
+    },
+    {
+      "id": "u08",
+      "question": "Does the Foundation have a mentorship or coaching program?",
+      "answerable": false,
+      "reference_answer": "",
+      "rag_answer": "Based on the provided context, there is no explicit mention of the Foundation having a mentorship or coaching program. However, the organization does emphasize employee training and development to enhance their career growth.\n\nSources:\nTemplate.pdf - Page 23",
+      "retrieved_chunks": [
+        {
+          "chunk_id": 44,
+          "page": 9,
+          "document_name": "Template.pdf",
+          "content": "The Foundation recognizes that employees will be associatedwith organizations that, from time to time, may applyfor funding. This policy is directed towards the sourcesof most potential conﬂict which include conﬂictsarising as aresult of aﬃliation with:\n● an organization or individual which has, or is negotiating, a business relationship with Foundation,\n● an organization seeking funding or other support fromthe Foundation.\nDeﬁnitions:"
+        },
+        {
+          "chunk_id": 128,
+          "page": 23,
+          "document_name": "Template.pdf",
+          "content": "Employees are your Foundation’s most important asset. Their training and development is somethingin which your Foundation should invest. By trainingemployees and investing in their careerdevelopment you can make them feel valued by the Foundation. Oﬀering professional developmenttraining programs and opportunities allows employeesto perform better and prepares them forpositions of greater responsibility. But it can alsohelp employers attract top job candidates, retaintheirbest workers and"
+        },
+        {
+          "chunk_id": 23,
+          "page": 6,
+          "document_name": "Template.pdf",
+          "content": "The Foundation must earn this trust every day. Itis therefore essential the people involved with theFoundation,board members, employees and volunteers demonstratetheir ongoing commitment to the core values of integrity,honesty, impartiality, openness, respect, and responsibility.\nSimple adherence to the law is not enough. The Foundationwill often need to go beyond legal requirements andmake sure that its actions are transparent, open andresponsive to public concerns."
+        },
+        {
+          "chunk_id": 26,
+          "page": 7,
+          "document_name": "Template.pdf",
+          "content": "2. Role: The wellbeing of the people of our communitywill be the primary role of Foundation members. Inaddition, employees, volunteers and contractors will act in the best interests of the Foundation infulﬁlling its mission."
+        },
+        {
+          "chunk_id": 27,
+          "page": 7,
+          "document_name": "Template.pdf",
+          "content": "3. Accountability and Transparency: In carrying out philanthropicactivities employees, volunteers andcontractors will act within the letter and the spiritof the law. The Foundation embraces public interest,takes full responsibility for its actions, communicatestruthfully, and ensures public records are easilyavailable while maintaining appropriate privacy andconﬁdentiality. The Foundation will manage itsresources carefully and frugally, actively avoidingexcessive expense."
+        }
+      ]
+    },
+    {
+      "id": "u09",
+      "question": "What software or project management tools does the Foundation use?",
+      "answerable": false,
+      "reference_answer": "",
+      "rag_answer": "Based on the provided context, the Foundation does not explicitly mention using any specific project management tools. However, they do provide basic office resources such as email, internet access, telephone, and computer equipment for employees' job responsibilities.\n\nSources:\n- Template.pdf, page: 16\n- Template.pdf, page: 8",
+      "retrieved_chunks": [
+        {
+          "chunk_id": 83,
+          "page": 16,
+          "document_name": "Template.pdf",
+          "content": "Technology resources of the Foundation include butare not limited to email, internet, telephone andnewtechnologies. The Foundation provides electronic andcomputer equipment for the employee’s use in completingtheir job responsibilities. The Foundation’s goal for technology is to help donors and employees byproviding theright information and technology at the right placeand the right time. The Foundation has a commitmentto protectour information assets and to respect the donors’ rights to"
+        },
+        {
+          "chunk_id": 21,
+          "page": 6,
+          "document_name": "Template.pdf",
+          "content": "provides a framework fromwhich with your foundation can base your policy.Amend to align with your foundation’s practices."
+        },
+        {
+          "chunk_id": 44,
+          "page": 9,
+          "document_name": "Template.pdf",
+          "content": "The Foundation recognizes that employees will be associatedwith organizations that, from time to time, may applyfor funding. This policy is directed towards the sourcesof most potential conﬂict which include conﬂictsarising as aresult of aﬃliation with:\n● an organization or individual which has, or is negotiating, a business relationship with Foundation,\n● an organization seeking funding or other support fromthe Foundation.\nDeﬁnitions:"
+        },
+        {
+          "chunk_id": 110,
+          "page": 20,
+          "document_name": "Template.pdf",
+          "content": "The Foundation is committed to a policy of salaryadministration which is internally and externallycompetitive andequitable and also recognizes and encourages individual performance. The purpose of the policy is to:\n● Ensure the fair and equitable salary treatment ofthe Foundation employees\n● Set salary levels which will enable the Foundationto recruit and retain qualiﬁed employees\n● Provide guidelines for ongoing salary administration\n● Promote individual performance"
+        },
+        {
+          "chunk_id": 38,
+          "page": 8,
+          "document_name": "Template.pdf",
+          "content": "4. Contracts/Grants\nThe Foundation as a necessity will contract with professional and business corporations and details ofall such transactions will be treated with respectand discretion. Information relating to personnel,litigation and property contracts and resulting transactionswill be kept conﬁdential\n5. Meetings"
+        }
+      ]
+    },
+    {
+      "id": "u10",
+      "question": "What is the Foundation's policy on employee social media use outside of work?",
+      "answerable": false,
+      "reference_answer": "",
+      "rag_answer": "I don't know based on the provided documents.",
+      "retrieved_chunks": [
+        {
+          "chunk_id": 72,
+          "page": 14,
+          "document_name": "Template.pdf",
+          "content": "Policy and Procedure Statement\nThe Foundation recognizes the right of its employeesto privacy and to make use of personal time outsideofworking hours as they see ﬁt. However, outside employmentopportunities should be carefully considered toensure the employee’s ability to perform their responsibilitiesat the Foundation are not adversely aﬀected.Employees may engage in outside employment that complieswith the following:"
+        },
+        {
+          "chunk_id": 30,
+          "page": 7,
+          "document_name": "Template.pdf",
+          "content": "The Foundation is committed to providing a work environmentthat is free of harassment and supportive of thedignity, self-esteem and productivity of every employee. The Foundation will not tolerate any form of harassmentof,or by, employees, stakeholders, volunteers, students, contractors, suppliers or other individuals associatedwith theFoundation while engaged in activities pertainingto the workplace. The Foundation has developed a morecomprehensive policy addressing the details surroundingthis"
+        },
+        {
+          "chunk_id": 238,
+          "page": 39,
+          "document_name": "Template.pdf",
+          "content": "The Foundation also recognizes that prohibited harassmentand discrimination can occur at places other thanthephysical workplace. Employees, volunteers and contractorshave the right to be free from harassment anddiscrimination in all locations where work is conductedon behalf of the Foundation, or where the individual ispresent at the location only by virtue of their workwith the Foundation.\nDeﬁnitions:"
+        },
+        {
+          "chunk_id": 31,
+          "page": 7,
+          "document_name": "Template.pdf",
+          "content": "The Foundation has developed a morecomprehensive policy addressing the details surroundingthis issue. Please refer to the Anti-Harassment Policyfurther on in this document."
+        },
+        {
+          "chunk_id": 71,
+          "page": 14,
+          "document_name": "Template.pdf",
+          "content": "Foundations should read through the below policy statement and adapt it to ﬁt their current practices.If a Foundation has never considered this type ofpolicy, the following questions help with framing: Arewe willing to let staﬀ use Foundation equipment foroutside activities? Are we able to limit ouremployees working at other organizations, and if so, are there any limitations that we could legallyimpose? What is our position in staﬀ soliciting donorsand volunteers for outside employment?"
+        }
+      ]
+    }
+  ]
+}

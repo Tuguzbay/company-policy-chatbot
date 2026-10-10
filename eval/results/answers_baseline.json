@@ -1,0 +1,345 @@
+{
+  "timestamp": "2026-10-10T12:39:58.724952",
+  "config": {
+    "temperature": 0,
+    "retrieval": false
+  },
+  "results": [
+    {
+      "id": "a01",
+      "question": "What chunk size and overlap does the document splitter use?",
+      "answerable": false,
+      "reference_answer": "",
+      "baseline_answer": "The document splitter commonly uses a chunk size of 1000 tokens and an overlap of 25% (which translates to 250 tokens). This configuration balances file reduction with context preservation, though specifics can vary by tool or version. Always consult the tool's documentation for precise settings. \n\n**Answer:** The document splitter typically uses a chunk size of 1000 tokens and an overlap of 25%."
+    },
+    {
+      "id": "a02",
+      "question": "What are the core values listed in the Code of Ethics?",
+      "answerable": true,
+      "reference_answer": "The core values are integrity, honesty, impartiality, openness, respect, and responsibility.",
+      "baseline_answer": "The core values commonly listed in many companies' Codes of Ethics typically include:\n\n1. **Integrity** - Emphasizing honesty and fairness.\n2. **Respect** - Ensuring fair treatment of all employees and customers.\n3. **Responsibility** - Avoiding harm and maintaining trust.\n4. **Innovation** - Driving progress through creativity.\n5. **Customer Focus** - Delivering value to customers.\n\nThese values are standard across industries, though specific companies may add additional values based on their unique missions or industries."
+    },
+    {
+      "id": "a03",
+      "question": "What is the mileage reimbursement rate for personal vehicle use on Foundation business?",
+      "answerable": true,
+      "reference_answer": "The reimbursement rate is $0.48 per kilometer.",
+      "baseline_answer": "The mileage reimbursement rate for personal vehicle use on Foundation business is not specified. Typically, such rates vary by company and are influenced by factors like usage type (business vs. personal), geographic location, and vehicle maintenance policies. To obtain the exact rate, it's advisable to consult Foundation business's official documentation or contact their HR department directly."
+    },
+    {
+      "id": "a04",
+      "question": "How many days of vacation does a full-time employee earn after completing one full year of service?",
+      "answerable": true,
+      "reference_answer": "Ten working days of annual vacation.",
+      "baseline_answer": "The number of vacation days a full-time employee earns after completing one full year of service can vary depending on the company's policy. Common practices often include a base amount such as 10 days per year, which is approximately three weeks. Some companies may offer more, like 15 days, especially if they have higher standards for full-time employees. Without specific information from the company, it's typical to assume around 10 days per year."
+    },
+    {
+      "id": "a05",
+      "question": "What is the probationary period length for new employees?",
+      "answerable": true,
+      "reference_answer": "All employees have a six-month probationary period.",
+      "baseline_answer": "The typical probationary period for new employees can vary significantly depending on the industry and the specific company's policies. Common durations often range from three to twelve months, with tech companies frequently using shorter periods like three months due to fast-paced environments, while traditional industries might opt for six to twelve months. It's important to note that individual companies may have their own specific standards based on job roles, training needs, and performance expectations. Therefore, the exact length is usually determined by the employer in question rather than a one-size-fits-all timeframe."
+    },
+    {
+      "id": "a06",
+      "question": "When is a three-month evaluation of new employees conducted?",
+      "answerable": true,
+      "reference_answer": "A three-month evaluation of all new employees will be conducted, followed by a probationary review at the end of the sixth month.",
+      "baseline_answer": "A three-month evaluation of new employees typically occurs approximately three months after their start date. This period serves as an initial probationary phase during which the company assesses the employee's performance, attendance, and integration into the team. The evaluation helps determine if the hire is a suitable long-term commitment for the organization."
+    },
+    {
+      "id": "a07",
+      "question": "What is the maximum time an employee may claim per day for out-of-town trips or conferences?",
+      "answerable": true,
+      "reference_answer": "The maximum time that an employee may claim is 12 hours per day.",
+      "baseline_answer": "The maximum time an employee may claim per day for out-of-town trips or conferences typically varies by company but often follows a standard policy of 8 hours. This limit is likely in place to prevent abuse and ensure timely reporting, though each company's specific guidelines should be consulted for precise details.\n\n**Answer:**  \nMost companies allow employees to claim up to 8 hours per day for out-of-town trips or conferences. However, it's advisable to check the specific policy of your employer as they may have their own guidelines."
+    },
+    {
+      "id": "a08",
+      "question": "How is overtime calculated according to the policy?",
+      "answerable": true,
+      "reference_answer": "Overtime is anything over 8 hours in a day and excess of 44 hours in a week. Hours are banked at 1.5 times the actual hours worked.",
+      "baseline_answer": "The company policy calculates overtime as follows:\n\n1. **Full-Time Status**: Employees working 30 to 45 hours per week are considered full-time, with overtime applying beyond these hours.\n\n2. **Overtime Threshold**: Overtime is calculated after 40 hours in a typical workweek, aligning with common standards but possibly differing from state-specific laws.\n\n3. **Application Scope**: Overtime applies to all job types unless specified otherwise by the company policy.\n\n4. **Overtime Rate**: The standard multiplier is 1.5 times the regular pay rate for overtime hours.\n\n5. **Maximum Hours**: There may be no cap on maximum weekly or monthly overtime hours, depending on company policy.\n\n6. **Documentation Requirements**: Employees are required to provide relevant documentation, such as timesheets, to prove overtime work.\n\n7. **Special Cases**: The policy includes provisions for part-time employees and industries with unique requirements, ensuring compliance with labor laws.\n\nThis structured approach ensures clarity and adherence to both company policies and legal standards."
+    },
+    {
+      "id": "a09",
+      "question": "What happens if accumulated overtime is not taken within six months?",
+      "answerable": true,
+      "reference_answer": "The employer will pay the overtime hours at the prescribed rate of 1.5 times the employee's regular wage.",
+      "baseline_answer": "If a worker accumulates overtime hours without taking the appropriate leave within six months, the employer may face legal consequences under labor laws, particularly the Fair Labor Standards Act (FLSA). Employers are required to provide workers with paid leave for overtime worked. Failure to do so can result in the worker being able to collect unpaid wages or seek penalties against the employer. This situation often leads to legal action as both parties may be liable under these regulations."
+    },
+    {
+      "id": "a10",
+      "question": "What is the Foundation's non-owned automobile insurance limit?",
+      "answerable": true,
+      "reference_answer": "The Foundation's limit for non-owned automobiles is $2 million.",
+      "baseline_answer": "The question regarding the Foundation's non-owned automobile insurance limit is unclear due to the lack of context. Without knowing which foundation or insurer is being referred to, it's impossible to provide an accurate answer. Therefore, the information cannot be determined from the given data.\n\nAnswer: I don't know."
+    },
+    {
+      "id": "a11",
+      "question": "How many sick days does a full-time employee accrue per calendar year?",
+      "answerable": true,
+      "reference_answer": "A full-time employee accrues sick leave at the rate of ten days each calendar year.",
+      "baseline_answer": "The typical annual sick leave policy for a full-time employee generally accrues approximately 5 to 6 days per calendar year. This amount can vary based on specific company policies, job role, or regional laws. Some companies may offer more days if they accrue based on hours worked, while others might have different structures such as 1 day per week, though this is less common and would result in a higher annual allotment (e.g., about 52 days). It's important to check the company's specific policy or consult legal guidelines for precise information."
+    },
+    {
+      "id": "a12",
+      "question": "Can sick leave be carried over into the next calendar year?",
+      "answerable": true,
+      "reference_answer": "No, sick leave may not be carried over into a subsequent calendar year and it cannot be cashed out.",
+      "baseline_answer": "The ability to carry sick leave into the next calendar year depends on both the company's policy and local laws:\n\n1. **Limited Sick Leave**: Many companies impose a cap on annual sick leave, such as 5-10 days per year. If you exceed this limit in one year, any unused days can typically be carried over to the next year.\n\n2. **Unlimited Sick Leave**: Some companies offer unlimited sick leave without a cap. In such cases, whether the leave can be carried over depends on their specific terms and conditions.\n\n3. **Legal Frameworks**: In countries like the US (FMLA) and the UK, there are limits on sick leave that must be used within the same year or forfeited if not. Some companies may allow multiple uses of annual leave without a cap.\n\n4. **Exceptions and Special Cases**: Companies might have exceptions for unused leave from one year carrying over to the next, but this varies widely.\n\nIn summary, whether sick leave can be carried over depends on the company's specific policy and local legal framework."
+    },
+    {
+      "id": "a13",
+      "question": "After how many consecutive sick days is a medical certificate required?",
+      "answerable": true,
+      "reference_answer": "After more than three consecutive scheduled work days.",
+      "baseline_answer": "The requirement for a medical certificate after consecutive sick days can vary depending on the company's policies and applicable labor laws. Generally, some companies may require a medical certificate after two to four consecutive sick days. It's important to consult the specific employer or review their policy guidelines to determine the exact threshold."
+    },
+    {
+      "id": "a14",
+      "question": "What RRSP contribution does the Foundation provide to employees?",
+      "answerable": true,
+      "reference_answer": "A 4% contribution per pay period towards a self-directed RRSP, upon completion of the probationary period.",
+      "baseline_answer": "The Foundation likely provides a matching or additional contribution to help employees contribute to their RRSPs. This could be part of a defined contribution plan where the employer contributes a set percentage annually, potentially doubling the employee's contribution up to a certain limit each year. However, without specific details about the Foundation's structure and offerings, this is an educated guess based on common practices in such scenarios."
+    },
+    {
+      "id": "a15",
+      "question": "How much does the Foundation provide part-time employees for parking or bus pass?",
+      "answerable": true,
+      "reference_answer": "Part-time employees are entitled to receive $40 per month towards parking or bus pass.",
+      "baseline_answer": "I don't know the answer because the question refers to a specific \"Foundation\" without providing additional context or details. Without knowing which organization or company is being referred to, it's impossible to determine the amount provided for parking or bus passes for part-time employees."
+    },
+    {
+      "id": "a16",
+      "question": "Who is the official spokesperson for the Foundation on governance and policy issues?",
+      "answerable": true,
+      "reference_answer": "The Chair of the Board of the Foundation.",
+      "baseline_answer": "I don't know who the official spokesperson for the Foundation on governance and policy issues is. To find this information, you would need to check their official website or contact them directly through their contact information provided there."
+    },
+    {
+      "id": "a17",
+      "question": "What steps are in the progressive discipline process?",
+      "answerable": true,
+      "reference_answer": "Verbal warning (with written documentation), written warning, 2nd written warning or suspension, and termination.",
+      "baseline_answer": "The progressive discipline process is a structured approach to addressing employee misconduct, typically involving increasing levels of disciplinary action as the behavior worsens. Here are the key steps in this process:\n\n1. **Initiation**: The process begins when an issue related to misconduct is identified. The manager or supervisor gathers evidence and discusses the matter with the employee.\n\n2. **Review of Evidence and Documentation**: A thorough review of the facts and documentation of the incident is conducted to understand the nature and extent of the misconduct.\n\n3. **Policy Review**: The company's policies, procedures, and relevant disciplinary actions are reviewed to ensure consistency and fairness in handling the situation.\n\n4. **Warning**: If appropriate, a written or verbal warning is given to the employee, explaining the issue, potential consequences if it recurs, and steps to correct it.\n\n5. **Escalation**: If the initial warning is insufficient, the matter may be escalated within the organization, possibly involving further discussions with the employee and higher-ups.\n\n6. **Formal Disciplinary Process**: A formal hearing or investigation may occur where the employee is notified of charges, given a chance to defend themselves, and an opportunity for others involved to provide evidence.\n\n7. **Imposition of Disciplinary Action**: Based on findings from the formal process, disciplinary actions such as warnings, probation, or termination may be imposed.\n\n8. **Review Phase**: After imposing action, there is a period to monitor employee improvement and reassess whether the action was appropriate.\n\n9. **Termination**: If necessary, after reviewing progress, termination may be recommended if misconduct persists without improvement.\n\nThis structured approach ensures that disciplinary actions are taken progressively and fairly, addressing both immediate issues and long-term consequences as needed."
+    },
+    {
+      "id": "a18",
+      "question": "Within how many days must an employee report a harassment incident to their supervisor?",
+      "answerable": true,
+      "reference_answer": "Within seven days of the incident.",
+      "baseline_answer": "The number of days an employee must report a harassment incident to their supervisor varies by company and is typically outlined in the workplace's anti-harassment policy. Many organizations require reporting within 24 hours, but this can vary based on factors such as incident severity, type of harassment, or organizational specific policies. It's important for employees to follow their employer's stated guidelines regarding reporting procedures."
+    },
+    {
+      "id": "a19",
+      "question": "What does the Foundation's dress code policy say about business meetings?",
+      "answerable": true,
+      "reference_answer": "Employees asked to attend business meetings with clients should dress in appropriate business attire.",
+      "baseline_answer": "I don't know."
+    },
+    {
+      "id": "a20",
+      "question": "What are the three basic rights for employees under the health and safety model?",
+      "answerable": true,
+      "reference_answer": "The right to know about workplace safety hazards, the right to refuse unsafe work, and the right to participate in the occupational health and safety process.",
+      "baseline_answer": "The three fundamental rights for employees under the health and safety model are:\n\n1. **Right to Avoid Discrimination**: Employees have the right not to be discriminated against based on their physical condition or health status, ensuring they are not unfairly treated due to their health.\n\n2. **Right to Medical Accommodation**: Employees can request reasonable medical accommodations at work without fear of discrimination, allowing them to manage their health conditions effectively.\n\n3. **Right Against Coercion into Hazardous Jobs**: Employees are entitled to refuse work in dangerous or physically demanding environments without facing unlawful coercion or retaliation.\n\nThese rights form the core principles underpinning workplace health and safety policies."
+    },
+    {
+      "id": "a21",
+      "question": "Does the Foundation cover the cost of alcoholic beverages during travel?",
+      "answerable": true,
+      "reference_answer": "No, the Foundation will not cover the cost of alcoholic beverages.",
+      "baseline_answer": "The coverage of alcoholic beverages during travel by \"the Foundation\" cannot be definitively determined without additional context. If \"the Foundation\" refers to a specific organization, such as an insurance company or travel service provider, it's possible they may cover these expenses under certain conditions outlined in their policies. However, due to the lack of specific information about the Foundation's terms and conditions, I am unable to provide a definitive answer. For clarity, more details about \"the Foundation\" would be necessary to give an accurate response."
+    },
+    {
+      "id": "a22",
+      "question": "What is the deadline for submitting expense receipts?",
+      "answerable": true,
+      "reference_answer": "Within 30 days of the incurred expense.",
+      "baseline_answer": "The deadline for submitting expense receipts typically varies by company but often follows a standard timeframe. Generally, many companies adhere to a 30-day period after the relevant event or transaction. However, this can vary depending on factors such as the fiscal year structure (which might be shorter than a calendar year) or specific internal policies of the organization. It's advisable to consult the company's specific policy or contact their accounting department for precise details if unsure."
+    },
+    {
+      "id": "a23",
+      "question": "How many hours of counseling does the Employee Assistance Program provide?",
+      "answerable": true,
+      "reference_answer": "Up to 12 hours of face-to-face counseling per year, per employee.",
+      "baseline_answer": "The number of hours provided by an Employee Assistance Program (EAP) can vary depending on the specific employer's program structure. Some companies offer a set number of hours annually, while others may provide unlimited access through various support methods such as phone calls, online resources, or sessions with licensed professionals. It's advisable to consult the particular company's EAP details for accurate information. \n\nAnswer: The number of hours provided by an Employee Assistance Program can vary depending on the employer's specific program structure."
+    },
+    {
+      "id": "a24",
+      "question": "How many copies of the confidentiality agreement are made?",
+      "answerable": true,
+      "reference_answer": "Two copies: one for the person signing and one filed with a scanned copy saved on the server.",
+      "baseline_answer": "The number of copies typically made for a confidentiality agreement generally starts with at least two copies: one for each party involved in signing the agreement. These serve as the official records and ensure both parties have a copy. In some cases, additional copies may be distributed to other relevant parties such as legal advisors or clients, depending on the complexity and context of the agreement. Therefore, while the minimum is two copies, there might be extra copies created for distribution or record-keeping purposes.\n\nAnswer: At least two copies are made for each party signing the confidentiality agreement. Additional copies may be distributed based on the situation's requirements."
+    },
+    {
+      "id": "a25",
+      "question": "What criteria are used for determining pay increases?",
+      "answerable": true,
+      "reference_answer": "Job and technical knowledge, problem solving and judgment, quality of work, quantity of work, teamwork and cooperation, communication, and self-management.",
+      "baseline_answer": "The criteria used by companies to determine pay increases typically include a combination of several factors:\n\n1. **Experience**: Longer tenure with the company often leads to higher raises due to accumulated skills and experience.\n\n2. **Performance Evaluations**: Assessment of job performance over time, including meeting targets and achieving goals, is a key factor.\n\n3. **Market Rate**: Comparisons with similar positions in other companies to ensure competitiveness.\n\n4. **Bonuses and Incentives**: Consistent achievement of bonuses can contribute to a deserving raise.\n\n5. **Education Level**: Advanced degrees or certifications may lead to higher raises as investments in growth.\n\n6. **Company-Wide Factors**: Consideration of inflation and economic conditions affecting the company's budget.\n\n7. **Exceptional Performance**: Outstanding performance beyond regular duties can result in larger raises.\n\n8. **Company Culture and Values**: Alignment with the company’s values, such as innovation or customer service, may influence raises.\n\n9. **Diversity and Inclusion Efforts**: These initiatives might affect pay increases if they are part of the evaluation process.\n\n10. **Internal Promotions**: Changes in role within the company can impact salary adjustments based on performance.\n\nCompanies may also use formulas combining these factors to determine raises, ensuring fairness and alignment with market standards."
+    },
+    {
+      "id": "a26",
+      "question": "Within how many days must a drug conviction be reported to the ED/CEO?",
+      "answerable": true,
+      "reference_answer": "Within five days of any such conviction.",
+      "baseline_answer": "The number of days required to report a drug conviction can vary depending on the company's specific policy. However, a common practice is for such reports to be submitted within 30 days after discovery. This timeframe allows for prompt action while minimizing disruption."
+    },
+    {
+      "id": "a27",
+      "question": "What vacation pay percentage do full-time employees receive in their fifth year?",
+      "answerable": true,
+      "reference_answer": "6% starting in the fifth year, up from 4% for the first four years.",
+      "baseline_answer": "The vacation pay percentage for full-time employees in their fifth year can vary depending on the company's policy. Many companies offer an annual increase, such as 10% per year, which could accumulate to around 50% over five years, though this is often capped at a maximum set by the employer. Additionally, some companies may provide vacation days that increase each year, with employees earning one additional day per year beyond their initial allocation. Thus, in the fifth year, an employee might receive up to five days of vacation pay, depending on their hourly wage and the company's structure. Without specific information about the company, it's best to note that vacation pay percentages can vary and often increase annually."
+    },
+    {
+      "id": "a28",
+      "question": "How many vacation weeks does a full-time employee earn after completing ten years of service?",
+      "answerable": true,
+      "reference_answer": "Four weeks (twenty working days).",
+      "baseline_answer": "After considering various factors such as standard vacation policies, annualization of vacation time, and full-time status, the most common answer is that a full-time employee typically earns one week of vacation per year. Therefore, after ten years of service, an employee would earn 10 weeks of vacation time.\n\nAnswer: A full-time employee generally earns 10 weeks of vacation after completing ten years of service."
+    },
+    {
+      "id": "a29",
+      "question": "What does ED/CEO stand for in the policy document?",
+      "answerable": true,
+      "reference_answer": "Executive Director / Chief Executive Officer.",
+      "baseline_answer": "ED/CEO in a policy document likely stands for \"Executive Director\" and \"Chief Executive Officer,\" respectively. This combination refers to two key roles within an organization's structure, often highlighted together in sections related to governance or management."
+    },
+    {
+      "id": "a30",
+      "question": "What information should a job advertisement include according to the recruitment policy?",
+      "answerable": true,
+      "reference_answer": "Job Title, essential requirements for education and experience, knowledge and skills required, salary range, starting/ending date, hours of work, closing date, and respondent.",
+      "baseline_answer": "A well-structured job advertisement should include the following key elements:\n\n1. **Job Title and Location**: Clearly state the position and where it is located (e.g., remote, office-based).\n\n2. **Department or Division**: Provide context about the role within the company.\n\n3. **Job Description**: Outline the responsibilities, expectations, and what the role entails to help applicants assess their fit.\n\n4. **Qualifications**: List necessary education, certifications, and experience required for the position.\n\n5. **Work Location Details**: Specify if the job is remote, in an office, or requires in-person meetings.\n\n6. **Application Deadline**: Clearly state the deadline to avoid confusion and ensure timely submissions.\n\n7. **Hiring Process Steps**: Detail the application process, including submission methods and necessary steps after application.\n\n8. **Benefits Information**: Highlight any benefits offered beyond salary, such as health insurance, retirement plans, or vacation time.\n\n9. **Additional Information**: Include details like diversity statements, specific requirements for certain groups, company values, mission, and preferred contact methods.\n\n10. **Note on Application**: Encourage applicants to use the specified channel for application consistency.\n\n11. **Closing Statement**: Provide a brief note encouraging applications from qualified candidates aligned with the company's goals.\n\nThis structured approach ensures clarity and helps applicants understand what is required of them while aligning with the company's values and procedures."
+    },
+    {
+      "id": "b01",
+      "question": "If a new employee's probationary review is unsatisfactory, can the probationary period be extended, and for how long?",
+      "answerable": true,
+      "reference_answer": "Yes, the probationary period may be extended for up to six months if suitability cannot be determined.",
+      "baseline_answer": "If an employee's probationary period review is unsatisfactory, the company may be able to extend the period, typically up to six months. However, such an extension requires the application for special leave, as it constitutes a significant change in employment terms under labor laws."
+    },
+    {
+      "id": "b02",
+      "question": "What are the consequences if an employee falsifies Foundation records?",
+      "answerable": true,
+      "reference_answer": "The employee may be subject to disciplinary action up to and including dismissal.",
+      "baseline_answer": "If an employee falsifies Foundation records, several serious consequences can follow:\n\n1. **Disciplinary Action**: The employee may face termination or lose their job due to severe disciplinary measures for violating company policies.\n\n2. **Legal Implications**: Depending on the nature of the falsification, legal action could be pursued, including fines or criminal charges if it involves financial records.\n\n3. **Reputational Damage**: The company's reputation could be severely affected, leading to loss of customer trust and investor confidence.\n\n4. **Investigation and Consequences**: The employee might face an internal investigation. If evidence is found, the consequences could range from warnings to more severe actions like termination.\n\nIn summary, falsifying Foundation records typically leads to job loss, potential legal issues, and reputational harm for the company."
+    },
+    {
+      "id": "b03",
+      "question": "How does the policy handle both donor confidentiality and employee use of Foundation information for personal gain?",
+      "answerable": true,
+      "reference_answer": "Donor anonymity and confidentiality requests are strictly respected; donor lists are not shared. Separately, any information received through the Foundation will not be used for personal gain.",
+      "baseline_answer": "The policy is structured to protect donor confidentiality and prevent employees from misusing Foundation information. Here's how it balances these two aspects:\n\n1. **Donor Confidentiality:**\n   - **Data Protection:** The policy ensures that donor information is protected, restricting sharing beyond necessary for donations or follow-up services.\n   - **Consent and Law Compliance:** It includes clauses requiring consent for data use and adherence to legal obligations.\n\n2. **Preventing Employee Misuse:**\n   - **Access Controls:** Employees are restricted from accessing sensitive Foundation information without proper authorization, preventing misuse.\n   - **Prohibited Uses:** Specific guidelines prohibit the use of such information for personal gain, ensuring it serves the Foundation's interests.\n\n3. **Training and Oversight:**\n   - **Education:** Includes confidentiality training for both donors and employees to understand their rights and responsibilities.\n   - **Regular Audits:** Ensures policies remain effective through periodic reviews and updates as laws or technologies evolve.\n\n4. **Consequences for Violations:**\n   - **Disciplinary Actions:** Imposes penalties for misuse, addressing both donor and employee violations.\n\nThis integrated approach creates a protective environment, balancing donor privacy with ethical use of information."
+    },
+    {
+      "id": "b04",
+      "question": "What protections exist for an employee who reports a violation of the Code of Ethics?",
+      "answerable": true,
+      "reference_answer": "The Foundation's policy prohibits any retribution against employees, volunteers or contractors who report violations.",
+      "baseline_answer": "When an employee reports a code of ethics violation, several layers of protection are in place to ensure they feel safe and supported:\n\n1. **Company Policies**: Many companies maintain anti-whistleblower policies or ethics handbooks that outline how such reports should be handled. These documents typically emphasize confidentiality and provide mechanisms for investigation without retaliation.\n\n2. **Legal protections**: \n   - In the United States, the Whistleblower Protection Act of 1988 offers protection to individuals who report illegal activities.\n   - Many countries have their own whistleblower laws designed to protect employees from retaliation when they report misconduct.\n\n3. **Training Programs**: Companies often provide training on ethics and anti-whistleblower laws to ensure all employees are aware of their rights and the company's policies, reducing the fear of retaliation.\n\n4. **Investigation Process**: When a report is made, the company typically has an internal investigation process to determine the validity of the claim. This process may involve reviewing both parties' accounts and seeking evidence to address any issues found.\n\n5. **Consequences for Retaliation**: If an employee faces retaliation after reporting a violation, they may have legal recourse. In the U.S., Title VII of the Civil Rights Act protects against age discrimination, which can sometimes cover retaliation. Additionally, there are whistleblower hotlines and reporting mechanisms in place to ensure confidentiality.\n\nThese measures collectively aim to create an environment where employees feel safe to report ethical violations without fear of adverse consequences."
+    },
+    {
+      "id": "b05",
+      "question": "What conditions must be met for an employee to use Foundation equipment for personal purposes?",
+      "answerable": true,
+      "reference_answer": "Advance approval from ED/CEO, the item must be portable, non-consumable, and the cost to the Foundation must be negligible.",
+      "baseline_answer": "To determine the conditions an employee must meet to use Foundation equipment for personal purposes, we can outline the following based on typical company policies:\n\n1. **Prior Approval**: The employee must obtain permission from their manager or supervisor before using the equipment for personal reasons.\n\n2. **Usage Limits**: There may be restrictions on how often or extensively the employee can use the equipment for personal purposes to avoid overuse or damage.\n\n3. **Reporting Requirements**: Any personal use of the equipment must be reported, possibly with a justification tied to job responsibilities.\n\n4. **Consequences for Excess Use**: Exceeding usage limits could lead to disciplinary actions such as warnings, probation, or termination if deemed significant.\n\nThese conditions aim to balance employee flexibility with company operational needs and integrity."
+    },
+    {
+      "id": "b06",
+      "question": "How does the Foundation handle situations where a supervisor is the one causing harassment?",
+      "answerable": true,
+      "reference_answer": "If the supervisor is the cause, the situation should be discussed with the ED/CEO. If the ED/CEO is the cause, it should be discussed with the Board Chair.",
+      "baseline_answer": "The Foundation handles situations involving supervisor harassment through a structured approach:\n\n1. **Investigation**: When a report is made, an investigation is conducted by higher-ups or a designated team to determine the facts.\n\n2. **Action Against Supervisor**: If evidence of harassment is found, disciplinary measures may include warnings, probation, or termination for severe behavior.\n\n3. **Policy Implementation**: The Foundation updates its policies to prevent future occurrences and ensures all employees are aware of these changes.\n\n4. **Transparency and Support**: Employees have access to reporting mechanisms without fear of retaliation, allowing them to document and report incidents confidentially.\n\n5. **Training and Audits**: Supervisors receive training to prevent harassment, and regular audits ensure compliance with laws and company policies.\n\nThis comprehensive approach aims to foster a safe and respectful work environment."
+    },
+    {
+      "id": "b07",
+      "question": "What happens to a progressive discipline record after 24 months with no recurrence?",
+      "answerable": true,
+      "reference_answer": "A second written warning or suspension may be purged from the employee's file if there is no recurrence over the next 24 months.",
+      "baseline_answer": "After serving a progressive discipline term of 24 months without any recurrence, the employee's disciplinary record is typically expunged or canceled. This means the disciplinary action is discharged from the record, reflecting a successful resolution and preventing any potential stigma in future employment situations."
+    },
+    {
+      "id": "b08",
+      "question": "What are the rules about outside employment and its relationship to Foundation duties?",
+      "answerable": true,
+      "reference_answer": "Outside employment must be kept separate from Foundation responsibilities, must not use Foundation resources, must not create a conflict of interest, should not embarrass the Foundation, and soliciting Foundation donors for outside work is prohibited.",
+      "baseline_answer": "The relationship between outside employment and foundation duties involves balancing additional work with primary responsibilities to ensure effective performance and ethical conduct. Here's a structured overview:\n\n1. **Definitions**:\n   - **Outside Employment**: Any job unrelated to one's primary role, such as a teacher working as a graphic designer.\n   - **Foundation Duties**: Core responsibilities beyond the primary job, like a CEO's strategic planning.\n\n2. **Regulations and Policies**:\n   - **Two-Job Rule**: Similar principles where individuals should avoid taking on more than two jobs to maintain focus on primary duties.\n   - **Work-Life Balance**: Employers may restrict extra work to ensure employees can perform well in their main roles.\n\n3. **Legal Considerations**:\n   - Some industries, like healthcare, have laws preventing overlapping work hours that could interfere with primary duties.\n   \n4. **Ethical Implications**:\n   - Outside employment conflicting with foundation duties may lead to ethical dilemmas or disciplinary actions.\n\n5. **Global Policies**: Different regions have varying regulations; for example, the UK restricts more than two jobs, while the US has similar labor laws.\n\nIn summary, policies and guidelines aim to balance outside employment with primary duties to maintain performance and ethical standards, often through legal restrictions and contractual clauses."
+    },
+    {
+      "id": "u01",
+      "question": "What is the Foundation's remote work or work-from-home policy?",
+      "answerable": false,
+      "reference_answer": "",
+      "baseline_answer": "The question refers to a specific organization or foundation's remote work policy, which is not explicitly identified. Typically, such policies include guidelines on expected working hours, availability during business hours, internet access, device usage, security measures, and productivity expectations. Many companies require a certain percentage of onsite work but allow flexibility for remote workers. Communication platforms and deadlines are often emphasized to maintain productivity.\n\nHowever, without knowing the specific foundation in question, it's impossible to provide an exact answer. If referring to a well-known company like Google or Microsoft, their policies would be publicly available. For a precise answer, more context about the Foundation is needed."
+    },
+    {
+      "id": "u02",
+      "question": "Does the Foundation offer stock options or equity compensation?",
+      "answerable": false,
+      "reference_answer": "",
+      "baseline_answer": "The question regarding whether the Foundation offers stock options or equity compensation cannot be answered definitively due to insufficient context. The nature of the Foundation (e.g., corporate, non-profit, government agency) significantly influences its employee benefits structure. Without specific information about the Foundation in question, it is impossible to determine if such offerings exist. Therefore, further details are needed for an accurate response."
+    },
+    {
+      "id": "u03",
+      "question": "What is the Foundation's policy on sabbatical leave?",
+      "answerable": false,
+      "reference_answer": "",
+      "baseline_answer": "The Foundation's policy on sabbatical leave cannot be determined without specifying which Foundation is being referred to. If it's a philanthropic organization like the Bill and Melinda Gates Foundation, their policy might support creativity and innovation by allowing time for leaders to focus on impactful work. However, without knowing the specific Foundation, an accurate answer isn't possible.\n\nAnswer: Without additional context about the specific Foundation in question, I cannot provide details on its sabbatical leave policy."
+    },
+    {
+      "id": "u04",
+      "question": "How many employees currently work at the Foundation?",
+      "answerable": false,
+      "reference_answer": "",
+      "baseline_answer": "I'm unable to provide the current employee count at the Foundation because it's unclear which specific Foundation you're referring to. The information isn't available without additional context or details about the entity in question."
+    },
+    {
+      "id": "u05",
+      "question": "What is the Foundation's annual revenue or budget?",
+      "answerable": false,
+      "reference_answer": "",
+      "baseline_answer": "Without additional context specifying which Foundation is being referred to, I cannot provide the specific annual revenue or budget figures for any particular one. Each foundation typically has its own unique financial reports and details."
+    },
+    {
+      "id": "u06",
+      "question": "Does the Foundation provide pet-friendly workplace accommodations?",
+      "answerable": false,
+      "reference_answer": "",
+      "baseline_answer": "I don't know."
+    },
+    {
+      "id": "u07",
+      "question": "What is the Foundation's policy on employee bonuses?",
+      "answerable": false,
+      "reference_answer": "",
+      "baseline_answer": "The Foundation's policy on employee bonuses typically involves a structured approach designed to align with organizational goals and employee performance. Here is an overview of the common elements often included in such policies:\n\n1. **Determination Criteria**: Bonuses are usually based on annual reviews or specific performance metrics, which can include achieving targets, meeting KPIs, or contributing to long-term objectives.\n\n2. **Structure**: Bonuses may be structured as a percentage increase on salary, fixed amounts, or flexible options allowing employees to choose investment types or deferred compensation plans.\n\n3. **Incentives**: The policy might include elements like bonuses for staying with the company for a certain period or completing special projects, potentially offering different tiers (e.g., bronze, silver, gold) based on achievement levels.\n\n4. **Flexibility and Fairness**: Some foundations may allow employees to select how they receive their bonuses, such as through various investments or deferred options, while ensuring annual limits are set to maintain fairness and sustainability.\n\n5. **Alignment with Goals**: Bonuses often tie into company-wide objectives, contributing to employee motivation and organizational success.\n\n6. **Communication and Updates**: It's advisable to consult the Foundation's official resources for specific details or check for any recent updates on their bonus policy.\n\nIn conclusion, while specifics vary by foundation, a typical corporate foundation's bonus policy is designed to motivate employees through clear criteria and structured offerings, tailored to the organization's values and goals."
+    },
+    {
+      "id": "u08",
+      "question": "Does the Foundation have a mentorship or coaching program?",
+      "answerable": false,
+      "reference_answer": "",
+      "baseline_answer": "The question refers to a specific Foundation which is not identified in the query. Without knowing which Foundation is being asked about, it is impossible to confirm whether it has a mentorship or coaching program. Mentorship and coaching programs are common in many organizations but vary widely in their structure and offerings. \n\nTo provide an accurate answer, I would need more information about the particular Foundation in question. If you can specify the Foundation, I can offer more detailed information.\n\nAnswer: The specific Foundation has not been identified, so it is impossible to confirm whether they have a mentorship or coaching program without further information."
+    },
+    {
+      "id": "u09",
+      "question": "What software or project management tools does the Foundation use?",
+      "answerable": false,
+      "reference_answer": "",
+      "baseline_answer": "To determine the software or project management tools used by \"the Foundation,\" additional context is needed as it's unclear which specific foundation is being referred to. Without knowing whether it's an AI-related organization, a corporate foundation, or another entity, it's impossible to provide an accurate list of tools they might use.\n\nIf you could clarify which Foundation you're referring to, I'd be able to give a more precise answer."
+    },
+    {
+      "id": "u10",
+      "question": "What is the Foundation's policy on employee social media use outside of work?",
+      "answerable": false,
+      "reference_answer": "",
+      "baseline_answer": "I'm sorry, but I need more information to provide an accurate answer. Could you clarify which \"Foundation\" you're referring to? This will help me give you the correct policy details regarding employee social media use outside of work hours."
+    }
+  ]
+}
